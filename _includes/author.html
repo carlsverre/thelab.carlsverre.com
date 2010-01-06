@@ -1,0 +1,13 @@
+{% if post.author %}
+  {% if post.author_url %}<a href="{{post.author_url}}">{% endif %}
+    <b>{{ post.author }}</b>
+  {% if post.author_url %}</a>{% endif %}
+{% else %}
+  {% if page.author %}
+    {% if page.author_url %}<a href="{{page.author_url}}">{% endif %}
+      <b>{{ page.author }}</b>
+    {% if page.author_url %}</a>{% endif %}
+  {% else %}
+    <a href="{{site.owner_url}}"><b>{{site.owner}}</b></a>
+  {% endif %}
+{% endif %}

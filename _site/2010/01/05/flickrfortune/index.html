@@ -1,0 +1,288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TheLab@Carlsverre.com | FlickrFortune</title>
+<link href="/css/960/960.css" rel="stylesheet" type="text/css" />
+<link href="/css/960/reset.css" rel="stylesheet" type="text/css" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+<script src="/js/app.js" type="text/javascript"></script>
+<script src="/js/fonts/cufon-yui.js" type="text/javascript"></script>
+<script src="/js/fonts/GraublauWeb_400-GraublauWeb_700.font.js" type="text/javascript"></script>
+<script src="/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" >
+  if(this['google']) {
+    google.load("jquery", "1");
+    google.setOnLoadCallback(init,true);
+  } else {
+    $(document).ready(init);
+  }
+</script>
+</head>
+<body>
+  <div id="wrapper" class="container_12">
+    <div class="navigation grid_12">
+      
+        <h5><a href="/">Back to The Lab</a></h5>
+      
+    </div>
+
+
+<div id="header" class="grid_12">
+  <h1>FlickrFortune</h1>
+  
+    <h2>Get a picture with your fortune.</h2>
+  
+  <div class="meta">posted on 05 Jan 2010 by 
+  
+    <a href="http://www.carlsverre.com"><b>Carl Sverre</b></a>
+  
+
+</div>
+</div>
+<div id="content" class="grid_12">
+  <p class='note'>This post is <strong>out of date</strong>. It is only here for posterity.</p>
+
+<p>Ah the sweet smell of Python in the morning. It&#8217;s true, I have fallen for the sweet embrace which Python offers; the easy to read coding style, the amazing documentation system, django, all of it. It speaks to me like no other language has. I would like to start this post by quoting directly from the Python Interactive Shell:</p>
+<div class='highlight'><pre>  <span class='o'>&gt;&gt;&gt;</span> <span class='kn'>import</span> <span class='nn'>this</span>
+  <span class='n'>The</span> <span class='n'>Zen</span> <span class='n'>of</span> <span class='n'>Python</span><span class='p'>,</span> <span class='n'>by</span> <span class='n'>Tim</span> <span class='n'>Peters</span>
+
+  <span class='n'>Beautiful</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>ugly</span><span class='o'>.</span>
+  <span class='n'>Explicit</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>implicit</span><span class='o'>.</span>
+  <span class='n'>Simple</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='nb'>complex</span><span class='o'>.</span>
+  <span class='n'>Complex</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>complicated</span><span class='o'>.</span>
+  <span class='n'>Flat</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>nested</span><span class='o'>.</span>
+  <span class='n'>Sparse</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>dense</span><span class='o'>.</span>
+  <span class='n'>Readability</span> <span class='n'>counts</span><span class='o'>.</span>
+  <span class='n'>Special</span> <span class='n'>cases</span> <span class='n'>aren</span><span class='s'>&#39;t special enough to break the rules.</span>
+  <span class='n'>Although</span> <span class='n'>practicality</span> <span class='n'>beats</span> <span class='n'>purity</span><span class='o'>.</span>
+  <span class='n'>Errors</span> <span class='n'>should</span> <span class='n'>never</span> <span class='k'>pass</span> <span class='n'>silently</span><span class='o'>.</span>
+  <span class='n'>Unless</span> <span class='n'>explicitly</span> <span class='n'>silenced</span><span class='o'>.</span>
+  <span class='n'>In</span> <span class='n'>the</span> <span class='n'>face</span> <span class='n'>of</span> <span class='n'>ambiguity</span><span class='p'>,</span> <span class='n'>refuse</span> <span class='n'>the</span> <span class='n'>temptation</span> <span class='n'>to</span> <span class='n'>guess</span><span class='o'>.</span>
+  <span class='n'>There</span> <span class='n'>should</span> <span class='n'>be</span> <span class='n'>one</span><span class='o'>--</span> <span class='ow'>and</span> <span class='n'>preferably</span> <span class='n'>only</span> <span class='n'>one</span> <span class='o'>--</span><span class='n'>obvious</span> <span class='n'>way</span> <span class='n'>to</span> <span class='n'>do</span> <span class='n'>it</span><span class='o'>.</span>
+  <span class='n'>Although</span> <span class='n'>that</span> <span class='n'>way</span> <span class='n'>may</span> <span class='ow'>not</span> <span class='n'>be</span> <span class='n'>obvious</span> <span class='n'>at</span> <span class='n'>first</span> <span class='n'>unless</span> <span class='n'>you</span><span class='s'>&#39;re Dutch.</span>
+  <span class='n'>Now</span> <span class='ow'>is</span> <span class='n'>better</span> <span class='n'>than</span> <span class='n'>never</span><span class='o'>.</span>
+  <span class='n'>Although</span> <span class='n'>never</span> <span class='ow'>is</span> <span class='n'>often</span> <span class='n'>better</span> <span class='n'>than</span> <span class='o'>*</span><span class='n'>right</span><span class='o'>*</span> <span class='n'>now</span><span class='o'>.</span>
+  <span class='n'>If</span> <span class='n'>the</span> <span class='n'>implementation</span> <span class='ow'>is</span> <span class='n'>hard</span> <span class='n'>to</span> <span class='n'>explain</span><span class='p'>,</span> <span class='n'>it</span><span class='s'>&#39;s a bad idea.</span>
+  <span class='n'>If</span> <span class='n'>the</span> <span class='n'>implementation</span> <span class='ow'>is</span> <span class='n'>easy</span> <span class='n'>to</span> <span class='n'>explain</span><span class='p'>,</span> <span class='n'>it</span> <span class='n'>may</span> <span class='n'>be</span> <span class='n'>a</span> <span class='n'>good</span> <span class='n'>idea</span><span class='o'>.</span>
+  <span class='n'>Namespaces</span> <span class='n'>are</span> <span class='n'>one</span> <span class='n'>honking</span> <span class='n'>great</span> <span class='n'>idea</span> <span class='o'>--</span> <span class='n'>let</span><span class='s'>&#39;s do more of those!</span>
+</pre>
+</div>
+<p>Moving on.</p>
+
+<h3 id='flickrwhat'>FlickrWhat?</h3>
+
+<p>FlickrFortune is the product of my imagination. I wanted to create an innovative way of twisting together the massive power of the <a href='http://www.flickr.com/services/api/' title='Flickr API'>FlickrAPI</a> and the often overlooked insight of fortune. Fortune is a program included on most Unix operating systems that retrieves a random fortune cookie or quote from a database included with the program. You can read more here: <a href='http://en.wikipedia.org/wiki/Fortune_%28Unix%29' title='Fortune'>Fortune</a>. FlickrFortune is implemented as a Python script which accesses the FlickrAPI using <a href='http://stuvel.eu/projects/flickrapi' title='Beej&apos;s Python module'>Beej's Python module</a> after extracting the largest word in a random fortune (from the fortune program). That&#8217;s the gist of it.</p>
+
+<h3 id='first_some_livecoding'>First some &#8220;live-coding&#8221;</h3>
+
+<p>If you want to follow along with the following code you will need the FlickrAPI for python referenced above, a flickr API key, and the fortune program included on most linux/unix systems. Also Python 2.5.2 would be helpful.</p>
+
+<p class='note'>Disclaimer: I will try to explain some of the flickr/fortune related concepts, but you&#8217;re on your own when it comes to the Python. Also the next couple code snippets are all in a single Python Interactive Shell, thus imports are at the top.</p>
+<div class='highlight'><pre><span class='o'>&gt;&gt;&gt;</span> <span class='kn'>import</span> <span class='nn'>flickrapi</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='kn'>import</span> <span class='nn'>os</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>pipe</span> <span class='o'>=</span> <span class='n'>os</span><span class='o'>.</span><span class='n'>popen</span><span class='p'>(</span><span class='s'>&quot;fortune -s&quot;</span><span class='p'>)</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>fortune</span> <span class='o'>=</span> <span class='n'>pipe</span><span class='o'>.</span><span class='n'>read</span><span class='p'>()</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>pipe</span><span class='o'>.</span><span class='n'>close</span><span class='p'>()</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>fortune</span>
+<span class='s'>&#39;Among the lucky, you are the chosen one.&#39;</span>
+<span class='o'>&gt;&gt;&gt;</span>
+</pre>
+</div>
+<p>So what&#8217;s happened. In line 3 we create a pipe connected to &#8220;fortune -s&#8221;; the flag specifies &#8220;short fortunes&#8221;. In line 4 we grab the output of the fortune pipe and store it for later. So far so good.</p>
+<div class='highlight'><pre><span class='o'>&gt;&gt;&gt;</span> <span class='n'>apikey</span> <span class='o'>=</span> <span class='s'>&quot;YOUR API KEY HERE&quot;</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>flickr</span> <span class='o'>=</span> <span class='n'>flickrapi</span><span class='o'>.</span><span class='n'>FlickrAPI</span><span class='p'>(</span><span class='n'>apikey</span><span class='p'>)</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>tag</span> <span class='o'>=</span> <span class='s'>&quot;chosen&quot;</span>    <span class='c'># Put the biggest word in the fortune here</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photos</span> <span class='o'>=</span> <span class='n'>flickr</span><span class='o'>.</span><span class='n'>photos_search</span><span class='p'>(</span><span class='n'>tags</span><span class='o'>=</span><span class='n'>tag</span><span class='p'>,</span><span class='n'>sort</span><span class='o'>=</span><span class='s'>&quot;relevance&quot;</span><span class='p'>,</span><span class='n'>per_page</span><span class='o'>=</span><span class='s'>&quot;1&quot;</span><span class='p'>)</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photos</span><span class='o'>.</span><span class='n'>attrib</span><span class='p'>[</span><span class='s'>&#39;stat&#39;</span><span class='p'>]</span>    <span class='c'># Ensure photo was found</span>
+<span class='s'>&#39;ok&#39;</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photo</span> <span class='o'>=</span> <span class='n'>photos</span><span class='o'>.</span><span class='n'>find</span><span class='p'>(</span><span class='s'>&#39;photos&#39;</span><span class='p'>)</span><span class='o'>.</span><span class='n'>findall</span><span class='p'>(</span><span class='s'>&#39;photo&#39;</span><span class='p'>)[</span><span class='mf'>0</span><span class='p'>]</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photoURLFormat</span> <span class='o'>=</span> <span class='s'>&quot;http://farm</span><span class='si'>%s</span><span class='s'>.static.flickr.com/</span><span class='si'>%s</span><span class='s'>/</span><span class='si'>%s</span><span class='s'>_</span><span class='si'>%s</span><span class='s'>_b.jpg&quot;</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photoURL</span> <span class='o'>=</span> <span class='n'>photoURLFormat</span> <span class='o'>%</span> <span class='p'>(</span><span class='n'>photo</span><span class='o'>.</span><span class='n'>attrib</span><span class='p'>[</span><span class='s'>&#39;farm&#39;</span><span class='p'>],</span>
+             <span class='n'>photo</span><span class='o'>.</span><span class='n'>attrib</span><span class='p'>[</span><span class='s'>&#39;server&#39;</span><span class='p'>],</span><span class='n'>photo</span><span class='o'>.</span><span class='n'>attrib</span><span class='p'>[</span><span class='s'>&#39;id&#39;</span><span class='p'>],</span><span class='n'>photo</span><span class='o'>.</span><span class='n'>attrib</span><span class='p'>[</span><span class='s'>&#39;secret&#39;</span><span class='p'>])</span>
+<span class='o'>&gt;&gt;&gt;</span> <span class='n'>photoURL</span>
+<span class='s'>&#39;http://farm1.static.flickr.com/9/12379604_20464c804d_b.jpg&#39;</span>
+<span class='o'>&gt;&gt;&gt;</span>
+</pre>
+</div>
+<p>What does the above code do? Well, first we initialize a flickrapi object (line: 2), which is followed by using said object to search flickr (line: 4). If line 5 doesn&#8217;t return &#8220;ok&#8221; then search Flickr using a different tag. On line 6 we get a list of photos returned by the search and choose the first one (there should only be one because we specified &#8220;per_page=&#8221;1&#8221;&#8220;). Finally after running the various attributes of the photo through the string formatter we have the url.</p>
+
+<p>So there you have it. We are practically done. Just need to wrap all of the above into a script and then&#8230; Oh, right, image manipulation. The essence of image manipulation is that it&#8217;s easier to do when you are not working in the interpreter, so let&#8217;s start laying out the script!</p>
+
+<h3 id='round_1'>Round 1</h3>
+
+<p>In the design process of round one I just had a basic program in mind.</p>
+
+<ol>
+<li>Get the fortune</li>
+
+<li>Get the tag</li>
+
+<li>Get the flickrImage</li>
+
+<li>Make the wallpaper</li>
+
+<li>Update the desktop background</li>
+</ol>
+
+<p>As this was satisfactory, I started programming.</p>
+
+<h3 id='a_couple_hours_later'>A couple hours later</h3>
+
+<p>Now don&#8217;t get me wrong: this should not take a couple hours. However, this is the first program I have written in Python and thus I spent awhile understanding how to use the FlickrAPI as well as debugging my python code. Unfortunately, since I wrote this program before I decided to create this website, I am unable to show you code revisions at each step, so instead I&#8217;ll go over some things I ran into.</p>
+
+<h4 id='the_pil'>The PIL</h4>
+
+<p>The PIL is the <a href='http://www.pythonware.com/products/pil/'>Python Imaging Library</a> which adds a ton of image related operations to the already huge Python feature set. Here is how I used it:</p>
+<div class='highlight'><pre><span class='kn'>from</span> <span class='nn'>PIL</span> <span class='kn'>import</span> <span class='n'>Image</span>
+<span class='kn'>import</span> <span class='nn'>ImageDraw</span>
+<span class='kn'>import</span> <span class='nn'>ImageFont</span>
+
+<span class='k'>def</span> <span class='nf'>createWallpaper</span><span class='p'>(</span><span class='n'>flickrImage</span><span class='p'>,</span> <span class='n'>fortune</span><span class='p'>,</span> <span class='n'>prefix</span><span class='p'>):</span>
+    <span class='n'>wallpaper</span> <span class='o'>=</span> <span class='n'>Image</span><span class='o'>.</span><span class='n'>new</span><span class='p'>(</span><span class='s'>&quot;RGB&quot;</span><span class='p'>,</span> <span class='n'>wallpaperSize</span><span class='p'>,</span> <span class='s'>&quot;black&quot;</span><span class='p'>)</span>
+    <span class='n'>draw</span> <span class='o'>=</span> <span class='n'>ImageDraw</span><span class='o'>.</span><span class='n'>Draw</span><span class='p'>(</span><span class='n'>wallpaper</span><span class='p'>)</span>
+
+    <span class='n'>flickrImage</span> <span class='o'>=</span> <span class='n'>Image</span><span class='o'>.</span><span class='n'>open</span><span class='p'>(</span><span class='n'>localDir</span> <span class='o'>+</span> <span class='n'>flickrImage</span><span class='p'>)</span>
+    <span class='n'>x</span><span class='p'>,</span><span class='n'>y</span> <span class='o'>=</span> <span class='n'>flickrImage</span><span class='o'>.</span><span class='n'>size</span>
+
+    <span class='n'>x0</span> <span class='o'>=</span> <span class='p'>(</span><span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>-</span><span class='n'>x</span><span class='p'>)</span> <span class='o'>/</span> <span class='mf'>2</span>
+    <span class='n'>y0</span> <span class='o'>=</span> <span class='p'>(</span><span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>]</span><span class='o'>-</span><span class='n'>y</span><span class='p'>)</span> <span class='o'>/</span> <span class='mf'>2</span>
+
+    <span class='n'>x1</span> <span class='o'>=</span> <span class='n'>x0</span><span class='o'>+</span><span class='n'>x</span>
+    <span class='n'>y1</span> <span class='o'>=</span> <span class='n'>y0</span><span class='o'>+</span><span class='n'>y</span>
+
+    <span class='n'>wallpaper</span><span class='o'>.</span><span class='n'>paste</span><span class='p'>(</span><span class='n'>flickrImage</span><span class='p'>,</span> <span class='p'>(</span><span class='n'>x0</span><span class='p'>,</span><span class='n'>y0</span><span class='p'>,</span><span class='n'>x1</span><span class='p'>,</span><span class='n'>y1</span><span class='p'>))</span>
+
+    <span class='n'>boxMargin</span> <span class='o'>=</span> <span class='mf'>10</span>
+
+    <span class='n'>font</span> <span class='o'>=</span> <span class='n'>ImageFont</span><span class='o'>.</span><span class='n'>truetype</span><span class='p'>(</span><span class='n'>localDir</span> <span class='o'>+</span> <span class='s'>&quot;Sugo.ttf&quot;</span><span class='p'>,</span> <span class='n'>fontsize</span><span class='p'>)</span>
+    <span class='n'>textSize</span> <span class='o'>=</span> <span class='n'>draw</span><span class='o'>.</span><span class='n'>textsize</span><span class='p'>(</span><span class='n'>fortune</span><span class='p'>,</span> <span class='n'>font</span><span class='o'>=</span><span class='n'>font</span><span class='p'>)</span>
+    <span class='n'>textTopLeft</span> <span class='o'>=</span> <span class='p'>(</span><span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>/</span><span class='mf'>2</span> <span class='o'>-</span> <span class='n'>textSize</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>/</span><span class='mf'>2</span><span class='p'>,</span>
+                 <span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>]</span><span class='o'>-</span><span class='n'>textSize</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>]</span><span class='o'>*</span><span class='mf'>4</span><span class='p'>)</span>
+
+    <span class='n'>boxTopLeft</span> <span class='o'>=</span> <span class='p'>(</span><span class='n'>textTopLeft</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>-</span><span class='n'>boxMargin</span><span class='p'>,</span> <span class='n'>textTopLeft</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>])</span>
+    <span class='n'>boxBottomRight</span> <span class='o'>=</span> <span class='p'>(</span><span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>/</span><span class='mf'>2</span> <span class='o'>+</span> <span class='n'>textSize</span><span class='p'>[</span><span class='mf'>0</span><span class='p'>]</span><span class='o'>/</span><span class='mf'>2</span> <span class='o'>+</span> <span class='n'>boxMargin</span><span class='p'>,</span>
+                    <span class='n'>wallpaperSize</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>]</span><span class='o'>-</span><span class='n'>textSize</span><span class='p'>[</span><span class='mf'>1</span><span class='p'>]</span><span class='o'>*</span><span class='mf'>3</span><span class='o'>+</span><span class='n'>boxMargin</span><span class='p'>)</span>
+
+    <span class='n'>draw</span><span class='o'>.</span><span class='n'>rectangle</span><span class='p'>([</span><span class='n'>boxTopLeft</span><span class='p'>,</span> <span class='n'>boxBottomRight</span><span class='p'>],</span> <span class='n'>fill</span><span class='o'>=</span><span class='s'>&quot;white&quot;</span><span class='p'>)</span>
+
+    <span class='n'>draw</span><span class='o'>.</span><span class='n'>text</span><span class='p'>(</span><span class='n'>textTopLeft</span><span class='p'>,</span> <span class='n'>fortune</span><span class='p'>,</span> <span class='n'>font</span><span class='o'>=</span><span class='n'>font</span><span class='p'>,</span> <span class='n'>fill</span><span class='o'>=</span><span class='s'>&quot;black&quot;</span><span class='p'>)</span>
+
+    <span class='k'>del</span> <span class='n'>draw</span>
+
+    <span class='n'>filename</span> <span class='o'>=</span> <span class='n'>wallpaperDir</span> <span class='o'>+</span> <span class='n'>prefix</span><span class='o'>+</span><span class='s'>&quot;_&quot;</span><span class='o'>+</span><span class='n'>wallpaperPrefix</span><span class='o'>+</span><span class='s'>&quot;.jpg&quot;</span>
+    <span class='n'>wallpaper</span><span class='o'>.</span><span class='n'>save</span><span class='p'>(</span><span class='n'>filename</span><span class='p'>,</span> <span class='s'>&quot;JPEG&quot;</span><span class='p'>)</span>
+    <span class='k'>return</span> <span class='n'>filename</span>
+</pre>
+</div>
+<p>It should be quite straight forward but for those who want a bit of a breakdown here it is:</p>
+
+<ul>
+<li>Make a new blank image</li>
+
+<li>Create a draw object which provides various image-manipulation operations</li>
+
+<li>Open the previously downloaded Flickr image</li>
+
+<li>&#8220;Paste&#8221; the Flickr image into the center of the wallpaper</li>
+
+<li>The next 11 lines create a font instance using the Sugo font, calculate its position, draw a white box and finally draw the fortune.</li>
+
+<li>Finally we save and return the file name of the new wallpaper</li>
+</ul>
+
+<p>Simple as pie. I realize that the above code is heavily unoptimized, however this will be fixed in version two (discussed later).</p>
+
+<h4 id='downloading_and_saving_the_flickr_image'>Downloading and saving the Flickr image</h4>
+<div class='highlight'><pre><span class='kn'>import</span> <span class='nn'>urllib2</span>
+
+<span class='k'>def</span> <span class='nf'>getImageData</span><span class='p'>(</span><span class='n'>url</span><span class='p'>):</span>
+    <span class='k'>try</span><span class='p'>:</span>
+        <span class='k'>return</span> <span class='n'>urllib2</span><span class='o'>.</span><span class='n'>urlopen</span><span class='p'>(</span><span class='n'>url</span><span class='p'>)</span><span class='o'>.</span><span class='n'>read</span><span class='p'>()</span>
+    <span class='k'>except</span> <span class='n'>urllib2</span><span class='o'>.</span><span class='n'>URLError</span><span class='p'>:</span>
+        <span class='k'>print</span> <span class='n'>urlib2_URLError</span>
+        <span class='nb'>exit</span><span class='p'>(</span><span class='mf'>1</span><span class='p'>)</span>
+
+<span class='k'>def</span> <span class='nf'>saveFlickrImage</span><span class='p'>(</span><span class='n'>imageData</span><span class='p'>,</span> <span class='n'>prefix</span><span class='p'>):</span>
+    <span class='n'>fileName</span> <span class='o'>=</span> <span class='n'>prefix</span><span class='o'>+</span><span class='s'>&quot;_&quot;</span><span class='o'>+</span><span class='n'>flickrPrefix</span><span class='o'>+</span><span class='s'>&quot;.jpg&quot;</span>
+
+    <span class='k'>try</span><span class='p'>:</span>
+        <span class='n'>f</span> <span class='o'>=</span> <span class='nb'>open</span><span class='p'>(</span><span class='n'>localDir</span> <span class='o'>+</span> <span class='n'>fileName</span><span class='p'>,</span> <span class='s'>&#39;w&#39;</span><span class='p'>)</span>
+    <span class='k'>except</span> <span class='ne'>IOError</span><span class='p'>:</span>
+        <span class='k'>print</span> <span class='ne'>IOError</span>
+        <span class='nb'>exit</span><span class='p'>(</span><span class='mf'>1</span><span class='p'>)</span>
+
+    <span class='n'>f</span><span class='o'>.</span><span class='n'>write</span><span class='p'>(</span><span class='n'>imageData</span><span class='p'>)</span>
+    <span class='n'>f</span><span class='o'>.</span><span class='n'>close</span><span class='p'>()</span>
+
+    <span class='k'>return</span> <span class='n'>fileName</span>
+</pre>
+</div>
+<p>I love urllib2. Oh and Python&#8217;s file handling. Anyways, this code is extremely self explanatory. The reason this process was divided into two functions is that I wasn&#8217;t sure if I needed to use the save function multiple times and so I seperated it. In the end I only used it once, and thus it might be merged with getImageData in V2.</p>
+
+<h3 id='dealing_with_arguments'>Dealing with arguments</h3>
+
+<p>At this point you have seen most of the code I used in the final script; the fortune/Flickr accessing part from our Python Interactive Shell experience, and the above two code snippets. However after I wrote the script I added a couple other simple features which required the usage of program arguments. These new features were:</p>
+
+<ul>
+<li>Looping n times (bulk generate wallpapers)</li>
+
+<li>Add color to the output (using bash shell color codes)</li>
+
+<li>Only change the desktop background if the -s flag is provided</li>
+</ul>
+
+<p>This of course brings me to one of my favorite modules in Python: getopt.</p>
+<div class='highlight'><pre><span class='k'>try</span><span class='p'>:</span>
+    <span class='n'>opts</span><span class='p'>,</span> <span class='n'>args</span> <span class='o'>=</span> <span class='n'>getopt</span><span class='o'>.</span><span class='n'>getopt</span><span class='p'>(</span><span class='n'>argv</span><span class='p'>,</span> <span class='n'>optsString</span><span class='p'>,</span> <span class='n'>optsList</span><span class='p'>)</span>
+<span class='k'>except</span> <span class='n'>getopt</span><span class='o'>.</span><span class='n'>GetoptError</span><span class='p'>:</span>
+    <span class='n'>usage</span><span class='p'>()</span>
+
+<span class='k'>for</span> <span class='n'>opt</span><span class='p'>,</span> <span class='n'>arg</span> <span class='ow'>in</span> <span class='n'>opts</span><span class='p'>:</span>
+    <span class='k'>if</span> <span class='n'>opt</span> <span class='ow'>in</span> <span class='p'>(</span><span class='s'>&quot;-h&quot;</span><span class='p'>,</span> <span class='s'>&quot;--help&quot;</span><span class='p'>):</span>
+        <span class='n'>usage</span><span class='p'>()</span>
+    <span class='k'>elif</span> <span class='n'>opt</span> <span class='ow'>in</span> <span class='p'>(</span><span class='s'>&#39;-n&#39;</span><span class='p'>,</span> <span class='s'>&quot;--number&quot;</span><span class='p'>):</span>
+        <span class='n'>numWallpapers</span> <span class='o'>=</span> <span class='nb'>int</span><span class='p'>(</span><span class='n'>arg</span><span class='p'>)</span>
+    <span class='k'>elif</span> <span class='n'>opt</span> <span class='o'>==</span> <span class='s'>&#39;-s&#39;</span><span class='p'>:</span>
+        <span class='n'>updateBackground</span> <span class='o'>=</span> <span class='bp'>True</span>
+    <span class='k'>elif</span> <span class='n'>opt</span> <span class='o'>==</span> <span class='s'>&#39;-c&#39;</span><span class='p'>:</span>
+        <span class='n'>colors</span> <span class='o'>=</span> <span class='bp'>True</span>
+</pre>
+</div>
+<p>Wow. That is way too easy. I recently implemented my own version of getopt for a class assignment and its a significant amount of code that is a pain to write. I assume that the getopt module is implemented in c which is another benefit of using python&#8217;s implementation.</p>
+
+<h3 id='so_whats_left'>So whats left?</h3>
+
+<ul>
+<li><a href='http://github.com/carlsverre/FlickrFortune/tarball/release_v1'>Download Version 1</a></li>
+
+<li><a href='http://github.com/carlsverre/FlickrFortune/'>FlickrFortune @ GitHub</a></li>
+</ul>
+
+<h3 id='next_steps'>Next Steps</h3>
+
+<p>As I said above in a number of places I am planning on continuing the development of FlickrFortune. Here are the following changes which will be implemented:</p>
+
+<ul>
+<li>Make the code smarter, lighter and more optimized. Specifically the create wallpaper function.</li>
+
+<li>Create an interface for setting the desktop background so that it can be easily implemented on other systems.</li>
+
+<li>A smarter searching algorithm which will choose a different tag from the fortune if the first one did not return a usable image (or any image).</li>
+
+<li>Allow the user to specify a file of fortunes and create a wallpaper for each one</li>
+
+<li>Give the option to generate wallpapers in multiple sizes</li>
+</ul>
+</div>
+
+<div class="grid_12" id="footer">
+  <p>&copy; 2010 <a href="http://carlsverre.com/">Carl Sverre</a> &bull; Making this possible: <a href="http://960.gs/">960.gs</a>, <a href="http://cufon.shoqolate.com/generate/">Cuf&oacute;n</a>, <a href="http://www.fonts.info/info/press/free-fonts-for-font-face-embedding.htm">Graublau Sans Web</a>, <a href="http://jekyllrb.com/">Jekyll</a></p>
+</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+---
+layout: default
+title: 
+---
+<div id="header" class="grid_12">
+    <h1>The Lab</h1>
+    <h2>@carlsverre.com</h2>
+</div>
+<div id="content" class="grid_12">
+  <div class="grid_6 alpha">
+    <h3>Latest Articles</h3>
+    <ul class="articles">
+      {% for post in site.posts limit:5 %}
+        <li class="article">
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <div class="meta">posted on {{ post.date | date_to_string }}<br />{% if post.author %}Guest Post {%endif%}by {% include author.html %}</div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="grid_6 omega">
+    <h3>Github Repos</h3>
+    <ul class="github-block"></ul>
+  </div>
+
+  {% for post in site.posts offset:5 %}
+    {% if forloop.index0 == 0 %}
+      <div class="grid_12 alpha omega">
+        <h3>Post Archive</h3>
+        <ul class="articles">
+    {% endif %}
+
+    <li class="article">
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <div class="meta">posted on {{ post.date | date_to_string }}<br />By {% include author.html %}</div>
+    </li>
+    {% if forloop.last %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

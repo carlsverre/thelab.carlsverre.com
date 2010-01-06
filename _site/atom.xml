@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The Lab @ CarlSverre.com</title>
+ <link href="http://thelab.carlsverre.com/atom.xml" rel="self"/>
+ <link href="http://thelab.carlsverre.com/"/>
+ <updated>2010-01-06T08:39:02-08:00</updated>
+ <id>http://thelab.carlsverre.com/</id>
+ <author>
+   <name>Carl Sverre</name>
+   <email>carl@carlsverre.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>The New Lab</title>
+   <link href="http://thelab.carlsverre.com/2010/01/06/the-new-lab/"/>
+   <updated>2010-01-06T00:00:00-08:00</updated>
+   <id>http://thelab.carlsverre.com/2010/01/06/the-new-lab</id>
+   <content type="html">&lt;p&gt;Welcome to the latest incarnation of &lt;strong&gt;The Lab&lt;/strong&gt;&lt;em&gt;@carlsverre.com&lt;/em&gt;. For those of you who looked at the last site, you will understand why its not archived. As for everyone else, lets just say that it grew to be a bit too busy. I did not stick to the plan (which was to keep things minimal) and I suffered because of it. &lt;strong&gt;The Lab&lt;/strong&gt; was supposed to be a place where I could expose the &lt;em&gt;process&lt;/em&gt; of writing code. It was supposed to encourage me to write more code with my lofty &lt;strong class='highlight'&gt;one project a month&lt;/strong&gt; goal. Unfortunatly it failed in many ways. So here I am, once again with a new site and a new dream.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Lab&lt;/strong&gt; is my place to write about programming. Any new and interesting projects which I am working on will hopefully make their way here. Any research or class projects which I am involved in (and can disclose) will make its way here. This will be my hub of code-freedom. This will be my face in the open source world. And hopefully somewhere along the line, this will be recognized for something. That is my goal.&lt;/p&gt;
+
+&lt;p&gt;Anyways, the rest of this page is the test-bed for most of the css styles used on this site. I prototyped this entire site in three phases using only two files (the index and this post):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Wrote HTML test-beds&lt;/li&gt;
+
+&lt;li&gt;Applied CSS styles and the 960 grid system&lt;/li&gt;
+
+&lt;li&gt;Added JS code for Cuf&amp;#243;n and jQuery&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;The Lab&lt;/strong&gt; uses Cuf&amp;#243;n for font-replacement, 960 for a grid layout and Jekyll for static site generation. See the footer for the complete credits as well as a link to this site&amp;#8217;s source.&lt;/p&gt;
+
+&lt;h3 id='enjoy'&gt;Enjoy!&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit &lt;a href='#'&gt;amet&lt;/a&gt;, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;p&gt;Donec pede justo, fringilla &lt;strong class='highlight'&gt;vel, aliquet nec, vulputate eget, arcu&lt;/strong&gt;. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/images/typography.jpg' alt='Death by typography' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;blockquote class='pull-left'&gt;
+&lt;p&gt;This is a block pulled to the left&amp;#8230; I hope it looks REALLY nice!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim&lt;/p&gt;
+&lt;hr class='clear' /&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;foo&lt;/span&gt;
+  &lt;span class='nb'&gt;puts&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;
+&lt;span class='k'&gt;end&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>What the flickr?!</title>
+   <link href="http://thelab.carlsverre.com/2009/09/01/what-the-flickr/"/>
+   <updated>2009-09-01T00:00:00-07:00</updated>
+   <id>http://thelab.carlsverre.com/2009/09/01/what-the-flickr</id>
+   <content type="html">&lt;p&gt;I have once again delved into the world of imagery, and conjured up a interesting project combining &lt;a href='http://code.google.com/appengine/' title='Google App Engine'&gt;Google App Engine&lt;/a&gt;, &lt;a href='http://www.djangoproject.com/' title='Django'&gt;Django&lt;/a&gt;, &lt;a href='http://www.python.org/' title='Python'&gt;Python&lt;/a&gt;, &lt;a href='http://code.google.com/p/flickrpy/'&gt;FlickrPy&lt;/a&gt; and &lt;a href='http://www.flickr.com/' title='Flickr'&gt;Flickr&lt;/a&gt;. The project&amp;#8217;s idea is that with Flickr&amp;#8217;s huge resource of images one should be able to create a game similar to &lt;a href='http://en.wikipedia.org/wiki/Pictionary' title='pictionary'&gt;pictionary&lt;/a&gt;, with the player guessing and Flickr &amp;#8220;drawing&amp;#8221;. My attempt at making this game is called &lt;strong&gt;What the Flickr?!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id='that_sounds_easy'&gt;That sounds easy!&lt;/h3&gt;
+
+&lt;p&gt;Well your wrong. Unfortunately, playing &lt;strong&gt;What the Flickr?!&lt;/strong&gt; is difficult due to the Flickr search engine being based on crowd-sourcing. Since all of their terms are user-generated, some search terms come up with completely unrelated results. Thus my first order of business was to figure out a way of getting around this problem.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately I haven&amp;#8217;t found it yet. So I thought about other methods of making the game easier, and the one I came up with was to make a extremely targeted word list. I wanted words which were commonly used. After scouring the interwebs I found &lt;a href='http://www2.educ.fukushima-u.ac.jp/~ryota/word-list.html' title='Ryota&amp;apos;s word list' target='_blank'&gt;this site&lt;/a&gt;. I grabbed all the words except for the &amp;#8220;operations&amp;#8221; column and plugged it into the Google datastore.&lt;/p&gt;
+
+&lt;h3 id='so_what_happened_next'&gt;So what happened next?&lt;/h3&gt;
+
+&lt;p&gt;A bunch of coding, then no coding for awhile followed by a bunch more coding. Essentially I completed the whole site in about 3 hours broken up into three sessions. Not bad for someone who has only done the Django tutorial.&lt;/p&gt;
+
+&lt;p&gt;The reason why I am failing at doing a nice code breakdown is for a couple reasons. First, I am keeping the code internal for now because I have some different plans for it as well as it being pretty unfinished. Second, I am completely exhausted and sick. If you have a problem, bite me.&lt;/p&gt;
+
+&lt;h3 id='so_can_i_play'&gt;So, can I play?&lt;/h3&gt;
+
+&lt;p&gt;Of course! That is the reason I made this post (and to fulfill my 1 project a month goal). &lt;a href='http://whattheflickr.appspot.com' title='What the Flickr?!'&gt;You can play the game here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have fun, and hopefully next month I will have something a bit more interesting!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>XP + Linux</title>
+   <link href="http://thelab.carlsverre.com/2009/08/01/guest-xp-dualbooting-linux/"/>
+   <updated>2009-08-01T00:00:00-07:00</updated>
+   <id>http://thelab.carlsverre.com/2009/08/01/guest-xp-dualbooting-linux</id>
+   <content type="html">&lt;p&gt;Hello there! The following post regarding Windows XP, dual booting and Linux has been contributed by my friend Kris Koiner. It is quite a heavy article, but I believe its a good read. It is posted here solely in the hope that it will benefit someone somehow sometime&amp;#8230; somewhere.&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: If you try anything described in the following article and ruin your computer, its not our problem. If you don&amp;#8217;t agree with this, then don&amp;#8217;t read the article. Thank you.&lt;/p&gt;
+
+&lt;p&gt;Let me just say that I am really starting to hate the arrogance of Windows XP. I&amp;#8217;ve just spent the last week and a bit trying to get XP to dual-boot with Ubuntu on my main machine. I know what you&amp;#8217;re thinking: &amp;#8220;That&amp;#8217;s not that hard, I&amp;#8217;ve done that many times.&amp;#8221; Normally, you&amp;#8217;d be right, the process should be relatively simple, however there were a multitude of reasons why this one didn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;Firstly, the current setup:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intel Core 2 Duo E6550 @ 2.33GHz&lt;/li&gt;
+
+&lt;li&gt;Asus P5E-VM HDMI with 6GB OCZ DDR2-800&lt;/li&gt;
+
+&lt;li&gt;200GB, 320GB, 1000GB SATA drives&lt;/li&gt;
+
+&lt;li&gt;Ubuntu 8.04 LTS 64-bit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The main drives are the 200GB (sda) and the 320GB (sdc); why the 320GB is not sdb I don&amp;#8217;t know, but it works, so I&amp;#8217;m not fixing it. The 1000GB is irrelevant, although crucial in the entire process, but for all intensive purposes, it could have been a flash drive.&lt;/p&gt;
+
+&lt;p&gt;The 200GB and 320GB are split into 3 partitions and raided together:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;md1: 100MB: raid1: sda1 &amp;amp; sdc1: /boot&lt;/li&gt;
+
+&lt;li&gt;md2: 140GB: raid0: sda2 + sdc2: /&lt;/li&gt;
+
+&lt;li&gt;md3: 120GB: raid1: sda3 &amp;amp; sdc3: /home&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, there&amp;#8217;s ~120GB of unused space at the end of the 320GB. The idea is to install Windows XP on the forth primary partition formatted as NTFS. Seems simple, right? Let&amp;#8217;s begin.&lt;/p&gt;
+
+&lt;h3 id='definitions'&gt;Definitions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BIOS&lt;/strong&gt;: Basic Input-Output System: the config file for your computer.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;MBR&lt;/strong&gt;: Master Boot Record: the first 512 bytes of a hard drive, contains the partition entries, and the boot loader.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;PBR&lt;/strong&gt;: Partition Boot Record: the first 512 bytes of a partition, contains boot loader code for the partition.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;NTLDR&lt;/strong&gt;: NT Loader: the windows boot loader.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;LILO&lt;/strong&gt;: The Linux boot loader, but of course has more features.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;GRUB&lt;/strong&gt;: Another Linux boot loader, newer than LILO and more popular among Ubuntu distros.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;FAT&lt;/strong&gt;: File Allocation Table: an old and outdated file system that works, so everybody uses it.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;NTFS&lt;/strong&gt;: New-Technology File System: the Windows preferred file system.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;PATA&lt;/strong&gt;: Parallel ATA: a drive interface used in the olden days.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;SATA&lt;/strong&gt;: Serial ATA: PATA&amp;#8217;s replacement.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;RAID&lt;/strong&gt;: Redundant Array of Inexpensive Disks: a way of joining multiple disks for an added benefit, usually speed or redundancy.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;LBA&lt;/strong&gt;: Logical Block Addressing: a new way of addressing hard drives that allow up to 2.0TB on a single disk.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;NIC&lt;/strong&gt;: Network Interface Card.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='forward'&gt;Forward&lt;/h3&gt;
+
+&lt;p&gt;Before you begin reading this lengthy rant about Windows XP, let me apologize for the spelling, grammar, and inconsistencies in this article. I have written it over the course of many days, and each day brought a different perspective to the writing.&lt;/p&gt;
+
+&lt;p&gt;This article requires a certain level of computer knowledge. I use quite a few &lt;em&gt;nix terms, make reference to particular programs, and don&amp;#8217;t go in to a lot of depth explaining things. If you have installed a dual-boot before and have used the&lt;/em&gt;nix shell, you&amp;#8217;ll probably be fine. If not, there are hopefully enough analogies and comedic material in here to at least provide some entertainment.&lt;/p&gt;
+
+&lt;p&gt;One last thing, I flip between &amp;#8220;Windows&amp;#8221; and &amp;#8220;XP&amp;#8221; as if they were the same thing. Also, not everything I say is completely accurate, most things are simplified to keep them short and on-track, if you think it&amp;#8217;s really bad&amp;#8230; too bad.&lt;/p&gt;
+
+&lt;p&gt;For those of you in a hurry, or hoping for a solution to the problem, just skip to the last section.&lt;/p&gt;
+
+&lt;h3 id='hour_1'&gt;Hour 1&lt;/h3&gt;
+
+&lt;p&gt;For this task, I&amp;#8217;ll be using a Windows XP Professional SP3 disc. I decided to use this version as it would avoid installing the service packs on top of older versions. So I put the disc in, say goodbye to Linux for a while, reboot, and set the CD to boot in the BIOS.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 1: Windows disc won&amp;#8217;t get past the &amp;#8220;Setup is inspecting your hardware.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Windows shows the message, then the message goes away, and nothing else comes up; the screen just stays black. Ctrl+Alt+Del to try it again and the same error, so we&amp;#8217;re already off to a great start.&lt;/p&gt;
+
+&lt;p&gt;After some google searching, because after all isn&amp;#8217;t that always the case: complaining to google to see if anybody else in the world has the same problems as you, I came across something that said that the Windows XP disc boot loader doesn&amp;#8217;t like SATA drives, so you have to disable them in the BIOS. Okay, we can try that.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 1: Disable all SATA drives in the BIOS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This works! We now get into the Windows &amp;#8220;loading drivers&amp;#8230;&amp;#8221; screen, all in those beautiful white-on-blue colors. One thought occurs: we disabled the drives, so how will Windows install? We&amp;#8217;ll deal with that when it shows up.&lt;/p&gt;
+
+&lt;p&gt;After about 8 minutes of &amp;#8220;loading drivers&amp;#8221; and &amp;#8220;getting ready to install Windows&amp;#8221;, the system partitions are listed, and XP asks where you&amp;#8217;d like it to deploy itself. So, apparently, while it was loading drivers, it discovered a bunch of drives, so we wonder why we had to disable the drives in the first place: confusion++.&lt;/p&gt;
+
+&lt;p&gt;After being presented with a list of 8 locations to install XP, I selected the unformatted space at the end of my 320GB. Windows asks me if I would like to create a partition, I say yes, and it tells me it can&amp;#8217;t.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 2: Windows cannot create a forth primary partition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This problem makes little sense, but upon reconsideration, it is fairly logical: the MBR only has space for 4 entries (thus, 4 primary partitions), yet, it is possible to have more than 4 partitions by using extended (or logical) partitions. This takes up an entry in the MBR and allows a second partition table somewhere else on the disk to deal with extended partitions. I assume that Windows reserves the forth entry in the primary partition table for an extended partition, thereby not allowing a forth primary partition. Makes sense (still stupid). Aside: it might be possible to install XP on an extended partition, but I had my mind set on the forth primary, so I needed a fix. Maybe Linux can help me out&amp;#8230;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 2: Boot into Linux, install NTFS drivers, create forth primary partition as NTFS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This process went relatively smoothly, so no real complaints. Don&amp;#8217;t forget to re-enable the drives or you won&amp;#8217;t be able to get into Linux. Also, after creating the partition and rebooting, don&amp;#8217;t forget to disable the drives before trying to load Windows.&lt;/p&gt;
+
+&lt;h3 id='hour_2'&gt;Hour 2&lt;/h3&gt;
+
+&lt;p&gt;Back into Windows install, waiting&amp;#8230; Okay, choose your partition. Now we get to choose the Linux-made NTFS partition. Windows likes it, but isn&amp;#8217;t satisfied and would like the first partition on the 200GB as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 3: Windows wants first partition on first drive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can imagine how I feel, here I am giving over 100GB to XP and taking time from my Linux and it wants more. I guess this is XP&amp;#8217;s way of bargaining: to install it on the second drive, you must also give it space on the first. This brings up an issue however, my 200GB is full with raided partitions, so I can&amp;#8217;t give XP what it wants without breaking something. Luckily for me though, the first partition is mirrored and only 100MB, so I&amp;#8217;d be able to restore it somewhat easily.&lt;/p&gt;
+
+&lt;p&gt;After careful consideration, I decided that XP could have the first partition on the first disk, as it would only be temporary, and once XP was set up, I would take it back.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 3: Give it what it wants, take it back later.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So XP happily removes the partition, breaks my /boot mirror and puts a nice FAT16 partition in it&amp;#8217;s place. Good news is, that with XP happy, it starts to copy files. Time to take a nap.&lt;/p&gt;
+
+&lt;h3 id='hour_25'&gt;Hour 2.5&lt;/h3&gt;
+
+&lt;p&gt;After waking up, imagine my surprise to find Windows install back at square one asking me where I would like to install XP. Once again, it becomes clear: the drives were disabled, so when the computer rebooted, all the BIOS found was the CD and we repeated the process.&lt;/p&gt;
+
+&lt;p&gt;No big deal, just F3 to quit the install, reboot the computer, re-enable the drives, and let Windows carry on. Everything but the last step ended up working: just before getting into Windows, however, we are told that XP cannot find &amp;#8220;Hal.dll&amp;#8221; in it&amp;#8217;s system root and we come to a stand-still.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 4: XP cannot boot: Hal.dll not found or corrupt.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Let&amp;#8217;s ask google, but first, some background: Hal.dll is for the Hardware Abstraction Layer. It let&amp;#8217;s Windows and your applications pretend that all computers are the same, in simplistic terms. After some good ol&amp;#8217; internet prodding, I find out that it might be because XP is installed on the second drive, and NTLDR doesn&amp;#8217;t know this. Therefore, we must edit the boot.ini configuration file in the first partition of the first disk.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 4: Edit boot.ini to reflect non-standard setup.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since it&amp;#8217;s a FAT16 partition, Linux (which is already installed) will be able to modify it. Let&amp;#8217;s just boot that back up. Oh wait, XP wrote over the MBR and /boot partition.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 5: XP was naughty, and didn&amp;#8217;t make a backup: wrote over MBR.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So before we can modify our corrupted boot.ini file, we must now fix Ubuntu. Pop in the Ubuntu install disk, boot up the live CD, open a terminal, and rewrite GRUB to the MBR. That works. Shutdown the live CD, and reboot into our own version of Ubuntu. It informs us that our /boot partition is degraded, and we tell it to forget about it and just deal with it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 5: Use a Linux live-CD to reinstall GRUB.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After logging in, we mount the first partition and open the boot.ini file in our favorite editor (mine is vim). Just as I suspected, the XP entries point to the forth partition on the first disk. Each boot.ini entry contains three fields: the controller, the disk, and the partition. Now since SATA only hosts one drive per controller (okay, not quite true, but roll with it), we know that the disk will be &amp;#8216;0&amp;#8217;, as opposed to in olden days when you would differentiate between the master and the slave drive. Thus, we could bet that the correct path to the XP partition would be 1-0-4; the controller and disk numbers start at zero whereas the partitions start at one, why, I don&amp;#8217;t know, but that&amp;#8217;s a different rant. Just to be safe, I&amp;#8217;ll make a bunch more entries with the different combinations so that I don&amp;#8217;t have to repeat this process over and over again.&lt;/p&gt;
+
+&lt;p&gt;Upon rebooting, all boot.ini possibilities resulted in the same &amp;#8220;Hal.dll might be missing or corrupt&amp;#8221; error. This lead me to believe that despite all its efforts, XP really didn&amp;#8217;t want to run from a second hard drive. Since the situation wasn&amp;#8217;t about to change, and knowing that an alternate boot loader, LILO, can boot Windows from a second hard drive, I figured I&amp;#8217;d try LILO instead of GRUB.&lt;/p&gt;
+
+&lt;h3 id='hour_4'&gt;Hour 4&lt;/h3&gt;
+
+&lt;p&gt;After some pondering as to the easiest way to install LILO, I decided to install it from my Backtrack live-CD. An aside: I really like Backtrack, it is probably one of the most advanced and complete live-CDs out there.&lt;/p&gt;
+
+&lt;p&gt;Long-story-short, between the man pages of LILO and google, I was fighting my way through the LILO install. Maybe I was doing it wrong, or maybe it was because I was trying to install it off a live-CD, but it wasn&amp;#8217;t working very well, and in the end, I decided that I could probably make it work just fine with GRUB.&lt;/p&gt;
+
+&lt;p&gt;Knowing that GRUB can chain-load boot records, I would need a Windows XP boot record on my XP partition. But, XP installs it on the first partition of the first drive, remember?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 6: Need XP boot record on forth partition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So here&amp;#8217;s the idea: we&amp;#8217;re going to take the boot record from the first drive, first partition and move it to the second hard drive, forth partition. At which point GRUB can go in the MBR, load its stage2 from the first drive, and then chain-load to the second drive.&lt;/p&gt;
+
+&lt;p&gt;But, we have another problem: the XP install creates the first partition on the first drive as FAT16, whereas our forth partition is NTFS, so we can&amp;#8217;t directly copy the PBR. So, we&amp;#8217;re going to repeat the entire install process, but this time on a FAT32 partition so that we can transfer the PBR.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 6: Reinstall XP on a FAT32 partition and transfer the PBR.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Okay, here we go.&lt;/p&gt;
+
+&lt;h3 id='hour_5'&gt;Hour 5&lt;/h3&gt;
+
+&lt;p&gt;Reboot the computer, disable the drives, wait for the installer to load everything it needs, delete the old partition, create the new&amp;#8230; oops, forgot, Windows can&amp;#8217;t create a forth partition. Reboot, enable the drives, boot into Linux, open parted, delete the NTFS partition, create a FAT32 partition, save, reboot. Disable drives, wait for the installer, XP needs first partition on first drive? Yes, take a nap.&lt;/p&gt;
+
+&lt;p&gt;Wake up to the start screen again, reboot, enable drives, this time, however, we&amp;#8217;re not expecting XP to load, and it doesn&amp;#8217;t, so no surprises.&lt;/p&gt;
+
+&lt;h3 id='hour_6'&gt;Hour 6&lt;/h3&gt;
+
+&lt;p&gt;Now that that&amp;#8217;s done, we need to get our PBR and move it to our XP partition.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 7: GRUB is once again broken, but we can&amp;#8217;t fix it, because we need what has replaced it, which is of course, also broken.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So we turn to our invaluable Backtrack once again. Using it, I made a copy of all the PBRs and MBRs around for further investigation. I also had a copy of my GRUB MBR and partition (that I made after re-installing GRUB the first time) so I copied that back on to the drive, rebooted, and got back into Linux a little easier.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 7: Use Backtrack. Make copies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now back in my own Linux, I start analysing all the boot records I&amp;#8217;ve collected and start piecing together a new one for the XP partition.&lt;/p&gt;
+
+&lt;h3 id='hour_8'&gt;Hour 8&lt;/h3&gt;
+
+&lt;p&gt;Okay, I lied that last step took more than two hours, but when it was done, I had my own boot record for the XP partition. Copied it over to the now FAT32 partition, adjusted GRUB&amp;#8217;s menu.lst and prepared to reboot.&lt;/p&gt;
+
+&lt;p&gt;As I&amp;#8217;m sure you probably could have guessed, it didn&amp;#8217;t work (I had gotten my hopes up unfortunately), but I got a different error: referring to a &amp;#8220;hardware detection error&amp;#8221;. Unlike the &amp;#8220;hal.dll&amp;#8221; error, this one seemed more upstream, but like the &amp;#8220;hal.dll&amp;#8221; error, it too resided in the NTLDR.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 8: Tried own boot loader, new error, same problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;By this time, I was just getting frustrated with all the problems that XP was throwing at me and eventually decided that it might be more efficient to give in a little more. After all, I was already okay with XP breaking my /boot partition every time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 8: Give up, comply with XP and give it space on the first drive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id='hour_9'&gt;Hour 9&lt;/h3&gt;
+
+&lt;p&gt;I decided that I would flip the 200GB and 320GB drives so that the 320GB was the first drive and the 200GB was the second. This would make the XP partition the forth partition on the first drive, where XP would hopefully be a little happier. But first, I have to restore everything the way it was before I started, or my Linux might stop working.&lt;/p&gt;
+
+&lt;p&gt;Loading Linux again, I deleted the Windows partitions, re-created my raid partitions, re-added them, and rebuilt the arrays. Turned off the computer, opened it up, swapped the SATA cables, and powered it back on. Load into Linux, make sure all the drives are still in the arrays, adjust any mount points that have been broken. Overall, system looks good, time to try Windows again.&lt;/p&gt;
+
+&lt;p&gt;Open parted, create NTFS partition, now on the first hard drive, reboot, disable drives, insert Windows disc, wait for install. This is getting kind of repetitive isn&amp;#8217;t it? This time however, XP install did not ask for the first partition on the first disk. The install worked fine, rebooted, enabled the drives, get to the boot loader&amp;#8230; nope, still doesn&amp;#8217;t work: back to a &amp;#8220;hal.dll&amp;#8221; error.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 9: XP still doesn&amp;#8217;t work, wants more than the first drive?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So XP won&amp;#8217;t even work when it&amp;#8217;s given space on the first drive, what could it possibly want? The first partition? It can&amp;#8217;t have that because it&amp;#8217;s too big to fit in the space of my /boot partition, and I&amp;#8217;m not going to spend the next day shuffling my raid partitions to give it more space. At this point, it&amp;#8217;s getting really frustrating to deal with XP and all of its &amp;#8220;me&amp;#8221; attitude, so I decided to grab an old laptop hard drive, an 80GB SATA, and just see if XP would install on that. I know the drive has some bad sectors on it, hence why I was avoiding it before, but if XP finds a way to get at least to the second part of the install, I&amp;#8217;d be happy.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 9: Completely abandon all plans and just give XP its own drive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id='hour_10'&gt;Hour 10&lt;/h3&gt;
+
+&lt;p&gt;Open the computer again, install the now-forth hard drive, disable the drives, wait for the installer, point it to the forth drive this time, and for some reason, it doesn&amp;#8217;t want the first partition on the first drive. That&amp;#8217;s weird, so it only must have it when it&amp;#8217;s not the first partition or on the first drive. Moving on, it installs for a while, reboots, I enable the drives again, and&amp;#8230; no way, it actually boots in to the second part of the install. Victory!&lt;/p&gt;
+
+&lt;p&gt;So now we get to sit back and laugh in disgust at all the propaganda that is shown to us during the install: &amp;#8220;..faster and more reliable&amp;#8221; &amp;#8220;..easiest Windows yet&amp;#8221;, &amp;#8220;..latest hardware and software&amp;#8221;, &amp;#8220;most dependable Windows&amp;#8230;&amp;#8221;, &amp;#8220;..safety, security, and privacy&amp;#8221;, the list just keeps going and going.&lt;/p&gt;
+
+&lt;p&gt;Finally, it reboots again and we get our first glimpse of the Windows&amp;#8217; user interface. I open IE in order to download Firefox, but for some reasons, XP didn&amp;#8217;t install the drivers for my network card.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 10: No NIC drivers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hahaha, we go through all this trouble, and XP can&amp;#8217;t even get us a little bit of out-of-the-box Internet? Wasn&amp;#8217;t there a quote in the install about supporting the latest hardware?&lt;/p&gt;
+
+&lt;p&gt;Rather than switch to Linux right away, I just used my other computer to download the NIC driver, store it to a flash drive, wait for XP to detect the drive, install the drivers for the flash drive&amp;#8230; Okay, now I can install my network card. Ten minutes later, I&amp;#8217;m downloading Firefox, then my graphics card drivers, then my sound drivers&amp;#8230;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fix 10: Use another computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now that XP is finally getting settled in, completely unaware and ungrateful of all the things that I&amp;#8217;ve done for it, it&amp;#8217;s time to get Linux back and integrated.&lt;/p&gt;
+
+&lt;h3 id='hour_12'&gt;Hour 12&lt;/h3&gt;
+
+&lt;p&gt;A simple boot into Backtrack, replace the MBR from my GRUB backup, reboot, and we&amp;#8217;re back into Linux. Make sure all the raids are intact, and edit the GRUB menu.lst to chain-load Windows on the forth drive. Reboot again to confirm that everything works, and it does, unbelievable.&lt;/p&gt;
+
+&lt;p&gt;Now, something I noticed in XP: it detected the old broken install of its predecessor on forth partition of the first hard drive and decided that it would be a good idea to call that one &amp;#8220;C:&amp;#8221; and the working copy &amp;#8220;L:&amp;#8221;. It choose &amp;#8220;L&amp;#8221; because it noticed that there were a lot of other partitions that one day would surely be visible to XP (since they&amp;#8217;re empty now) and reserved letters for them, how nice.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, because Windows had commandeered and adopted itself a &amp;#8220;C:&amp;#8221; drive, I couldn&amp;#8217;t tell it to let it go and call the working version of Windows &amp;#8220;C:&amp;#8221;. So now, because I&amp;#8217;m not going through the install process again, I get the added luxury of changing the install paths of all my programs. Either way, it works, so I&amp;#8217;m not touching it. It can figure out the hard drive is corrupt on its own.&lt;/p&gt;
+
+&lt;h3 id='final_thoughts'&gt;Final Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Although it seems like I was able to complete the entire process in about 12 hours, it actually took more like 48 hours spread out over a little more than a week; a couple of things contributed.&lt;/p&gt;
+
+&lt;p&gt;Firstly, I needed the Linux portion working throughout the day, every day. So, when it got around to midnight, I stopped the &amp;#8220;progress&amp;#8221; and began restoring the computer. This included rebuilding the /boot partition, rewriting the MBR, and lots of rebooting.&lt;/p&gt;
+
+&lt;p&gt;Secondly, with the amount of reboots, the mount-count for each partition increased quite rapidly. Once it hits a certain number, Linux checks the entire partition for errors, which is good, but takes a couple of hours where you can&amp;#8217;t do anything else but watch it.&lt;/p&gt;
+
+&lt;p&gt;I described attempting to put a PBR on the FAT32 partition, well, I also tried it on an NTFS partition after that. I pretty much went through every single possibility of the above process and then just chose the best one to write about. What I didn&amp;#8217;t like about the NTFS partition was that it has reserved files, as opposed to FAT&amp;#8217;s reserved sectors. This makes it harder to edit the drive in a hex editor and maintain consistency.&lt;/p&gt;
+
+&lt;p&gt;Speaking of possibilities, at one point I figured my XP-CD was corrupt, so I tried some other discs, including an older XP disc and a Windows 2000 disc. I did not know this, but apparently Microsoft took a while to get on the large-hard-drive bandwagon as neither discs used LBA and had a 128GiB size limit. Waiting each time for the installer to load files, rebooting, enabling and disabling drives, these all took many hours of headache.&lt;/p&gt;
+
+&lt;p&gt;And finally, the countless hours spent searching through google and online forums every time I hit a brick wall.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Start reading here if you skipped the article.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So in the end, I actually never got XP to do what I wanted. I tinkered a lot with it, got frustrated at it, learned a lot about it, but at some point in the process, deemed it a waste of time, and just gave in to XP&amp;#8217;s forceful demands. I feel like I was just bullied into installing an unsafe, unappreciative, and unimpressive OS just to play a couple of games. But after all, that was the whole point: to play games, so I can&amp;#8217;t complain too much.&lt;/p&gt;
+
+&lt;p&gt;Moral of the story: XP doesn&amp;#8217;t play well with others, but we knew that, I mean, just at look at his parents&amp;#8230;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Time.txt</title>
+   <link href="http://thelab.carlsverre.com/2009/07/01/time-txt/"/>
+   <updated>2009-07-01T00:00:00-07:00</updated>
+   <id>http://thelab.carlsverre.com/2009/07/01/time-txt</id>
+   <content type="html">&lt;p class='note'&gt;This post is &lt;strong&gt;out of date&lt;/strong&gt;. It is only here for posterity.&lt;/p&gt;
+
+&lt;p&gt;The web is plagued with programs and websites pledging that they can solve all your time-management and todo-list problems. People such as David Allen have come up with systems such as &lt;a href='http://en.wikipedia.org/wiki/Getting_Things_Done' title='getting things done'&gt;GTD&lt;/a&gt; to help get things done. For some people these various methods work fine, but for others we just need to be able to create our own system. About a month ago I finally got fed up with all the various todo lists and time tracking interfaces I had to deal with, so I set out to create my own evolving masterpiece. I call it time.txt inspired by &lt;a href='http://ginatrapani.github.com/todo.txt-cli/' title='todo.txt'&gt;todo.txt&lt;/a&gt; (a great command-line-interface (CLI) todo list).&lt;/p&gt;
+
+&lt;h3 id='what_does_it_solve'&gt;What does it solve?&lt;/h3&gt;
+
+&lt;p&gt;The idea is that Time.txt will evolve to become a complete CLI project management suite which can be updated through twitter (and via twitter, sms) and provide all the statistics you will ever need. The next release will integrate the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A backend stats sqlite3 database. This will be synced from the text database in order to efficiently store long term stats and to provide an universal interface to the stats for your own hacking purposes.&lt;/li&gt;
+
+&lt;li&gt;Export-to-excel functionality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once those parts have been added, time.txt will hit v1. After that, a twitter bot will be added and more features will be planned.&lt;/p&gt;
+
+&lt;h3 id='contribute'&gt;Contribute!&lt;/h3&gt;
+
+&lt;p&gt;Time.txt is open source and licensed under the GPL so feel free to fork it on github and have at it! If I like what you change ill merge it back into the main branch.&lt;/p&gt;
+
+&lt;h3 id='get_timetxt'&gt;Get Time.txt&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://github.com/carlsverre/time.txt/downloads'&gt;Download Version 0.9&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://github.com/carlsverre/time.txt'&gt;Visit Time.txt @ Github.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>FlickrFortune</title>
+   <link href="http://thelab.carlsverre.com/2009/06/01/flickrfortune/"/>
+   <updated>2009-06-01T00:00:00-07:00</updated>
+   <id>http://thelab.carlsverre.com/2009/06/01/flickrfortune</id>
+   <content type="html">&lt;p class='note'&gt;This post is &lt;strong&gt;out of date&lt;/strong&gt;. It is only here for posterity.&lt;/p&gt;
+
+&lt;p&gt;Ah the sweet smell of Python in the morning. It&amp;#8217;s true, I have fallen for the sweet embrace which Python offers; the easy to read coding style, the amazing documentation system, django, all of it. It speaks to me like no other language has. I would like to start this post by quoting directly from the Python Interactive Shell:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;  &lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;this&lt;/span&gt;
+  &lt;span class='n'&gt;The&lt;/span&gt; &lt;span class='n'&gt;Zen&lt;/span&gt; &lt;span class='n'&gt;of&lt;/span&gt; &lt;span class='n'&gt;Python&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;by&lt;/span&gt; &lt;span class='n'&gt;Tim&lt;/span&gt; &lt;span class='n'&gt;Peters&lt;/span&gt;
+
+  &lt;span class='n'&gt;Beautiful&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;ugly&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Explicit&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;implicit&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Simple&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='nb'&gt;complex&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Complex&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;complicated&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Flat&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;nested&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Sparse&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;dense&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Readability&lt;/span&gt; &lt;span class='n'&gt;counts&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Special&lt;/span&gt; &lt;span class='n'&gt;cases&lt;/span&gt; &lt;span class='n'&gt;aren&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;t special enough to break the rules.&lt;/span&gt;
+  &lt;span class='n'&gt;Although&lt;/span&gt; &lt;span class='n'&gt;practicality&lt;/span&gt; &lt;span class='n'&gt;beats&lt;/span&gt; &lt;span class='n'&gt;purity&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Errors&lt;/span&gt; &lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='n'&gt;never&lt;/span&gt; &lt;span class='k'&gt;pass&lt;/span&gt; &lt;span class='n'&gt;silently&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Unless&lt;/span&gt; &lt;span class='n'&gt;explicitly&lt;/span&gt; &lt;span class='n'&gt;silenced&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;In&lt;/span&gt; &lt;span class='n'&gt;the&lt;/span&gt; &lt;span class='n'&gt;face&lt;/span&gt; &lt;span class='n'&gt;of&lt;/span&gt; &lt;span class='n'&gt;ambiguity&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;refuse&lt;/span&gt; &lt;span class='n'&gt;the&lt;/span&gt; &lt;span class='n'&gt;temptation&lt;/span&gt; &lt;span class='n'&gt;to&lt;/span&gt; &lt;span class='n'&gt;guess&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;There&lt;/span&gt; &lt;span class='n'&gt;should&lt;/span&gt; &lt;span class='n'&gt;be&lt;/span&gt; &lt;span class='n'&gt;one&lt;/span&gt;&lt;span class='o'&gt;--&lt;/span&gt; &lt;span class='ow'&gt;and&lt;/span&gt; &lt;span class='n'&gt;preferably&lt;/span&gt; &lt;span class='n'&gt;only&lt;/span&gt; &lt;span class='n'&gt;one&lt;/span&gt; &lt;span class='o'&gt;--&lt;/span&gt;&lt;span class='n'&gt;obvious&lt;/span&gt; &lt;span class='n'&gt;way&lt;/span&gt; &lt;span class='n'&gt;to&lt;/span&gt; &lt;span class='n'&gt;do&lt;/span&gt; &lt;span class='n'&gt;it&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Although&lt;/span&gt; &lt;span class='n'&gt;that&lt;/span&gt; &lt;span class='n'&gt;way&lt;/span&gt; &lt;span class='n'&gt;may&lt;/span&gt; &lt;span class='ow'&gt;not&lt;/span&gt; &lt;span class='n'&gt;be&lt;/span&gt; &lt;span class='n'&gt;obvious&lt;/span&gt; &lt;span class='n'&gt;at&lt;/span&gt; &lt;span class='n'&gt;first&lt;/span&gt; &lt;span class='n'&gt;unless&lt;/span&gt; &lt;span class='n'&gt;you&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;re Dutch.&lt;/span&gt;
+  &lt;span class='n'&gt;Now&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='n'&gt;never&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Although&lt;/span&gt; &lt;span class='n'&gt;never&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;often&lt;/span&gt; &lt;span class='n'&gt;better&lt;/span&gt; &lt;span class='n'&gt;than&lt;/span&gt; &lt;span class='o'&gt;*&lt;/span&gt;&lt;span class='n'&gt;right&lt;/span&gt;&lt;span class='o'&gt;*&lt;/span&gt; &lt;span class='n'&gt;now&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;If&lt;/span&gt; &lt;span class='n'&gt;the&lt;/span&gt; &lt;span class='n'&gt;implementation&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;hard&lt;/span&gt; &lt;span class='n'&gt;to&lt;/span&gt; &lt;span class='n'&gt;explain&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;it&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;s a bad idea.&lt;/span&gt;
+  &lt;span class='n'&gt;If&lt;/span&gt; &lt;span class='n'&gt;the&lt;/span&gt; &lt;span class='n'&gt;implementation&lt;/span&gt; &lt;span class='ow'&gt;is&lt;/span&gt; &lt;span class='n'&gt;easy&lt;/span&gt; &lt;span class='n'&gt;to&lt;/span&gt; &lt;span class='n'&gt;explain&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;it&lt;/span&gt; &lt;span class='n'&gt;may&lt;/span&gt; &lt;span class='n'&gt;be&lt;/span&gt; &lt;span class='n'&gt;a&lt;/span&gt; &lt;span class='n'&gt;good&lt;/span&gt; &lt;span class='n'&gt;idea&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;
+  &lt;span class='n'&gt;Namespaces&lt;/span&gt; &lt;span class='n'&gt;are&lt;/span&gt; &lt;span class='n'&gt;one&lt;/span&gt; &lt;span class='n'&gt;honking&lt;/span&gt; &lt;span class='n'&gt;great&lt;/span&gt; &lt;span class='n'&gt;idea&lt;/span&gt; &lt;span class='o'&gt;--&lt;/span&gt; &lt;span class='n'&gt;let&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;s do more of those!&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Moving on.&lt;/p&gt;
+
+&lt;h3 id='flickrwhat'&gt;FlickrWhat?&lt;/h3&gt;
+
+&lt;p&gt;FlickrFortune is the product of my imagination. I wanted to create an innovative way of twisting together the massive power of the &lt;a href='http://www.flickr.com/services/api/' title='Flickr API'&gt;FlickrAPI&lt;/a&gt; and the often overlooked insight of fortune. Fortune is a program included on most Unix operating systems that retrieves a random fortune cookie or quote from a database included with the program. You can read more here: &lt;a href='http://en.wikipedia.org/wiki/Fortune_%28Unix%29' title='Fortune'&gt;Fortune&lt;/a&gt;. FlickrFortune is implemented as a Python script which accesses the FlickrAPI using &lt;a href='http://stuvel.eu/projects/flickrapi' title='Beej&amp;apos;s Python module'&gt;Beej's Python module&lt;/a&gt; after extracting the largest word in a random fortune (from the fortune program). That&amp;#8217;s the gist of it.&lt;/p&gt;
+
+&lt;h3 id='first_some_livecoding'&gt;First some &amp;#8220;live-coding&amp;#8221;&lt;/h3&gt;
+
+&lt;p&gt;If you want to follow along with the following code you will need the FlickrAPI for python referenced above, a flickr API key, and the fortune program included on most linux/unix systems. Also Python 2.5.2 would be helpful.&lt;/p&gt;
+
+&lt;p class='note'&gt;Disclaimer: I will try to explain some of the flickr/fortune related concepts, but you&amp;#8217;re on your own when it comes to the Python. Also the next couple code snippets are all in a single Python Interactive Shell, thus imports are at the top.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;flickrapi&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;os&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;pipe&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;os&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;popen&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;fortune -s&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;fortune&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;pipe&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;read&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;pipe&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;close&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;fortune&lt;/span&gt;
+&lt;span class='s'&gt;&amp;#39;Among the lucky, you are the chosen one.&amp;#39;&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;So what&amp;#8217;s happened. In line 3 we create a pipe connected to &amp;#8220;fortune -s&amp;#8221;; the flag specifies &amp;#8220;short fortunes&amp;#8221;. In line 4 we grab the output of the fortune pipe and store it for later. So far so good.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;apikey&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;YOUR API KEY HERE&amp;quot;&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;flickr&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;flickrapi&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;FlickrAPI&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;apikey&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;tag&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;chosen&amp;quot;&lt;/span&gt;    &lt;span class='c'&gt;# Put the biggest word in the fortune here&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photos&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;flickr&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;photos_search&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;tags&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;tag&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;sort&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;relevance&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;per_page&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photos&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;attrib&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;stat&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;    &lt;span class='c'&gt;# Ensure photo was found&lt;/span&gt;
+&lt;span class='s'&gt;&amp;#39;ok&amp;#39;&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photo&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;photos&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;find&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;photos&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;findall&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;photo&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photoURLFormat&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;http://farm&lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;.static.flickr.com/&lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;/&lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;_&lt;/span&gt;&lt;span class='si'&gt;%s&lt;/span&gt;&lt;span class='s'&gt;_b.jpg&amp;quot;&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photoURL&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;photoURLFormat&lt;/span&gt; &lt;span class='o'&gt;%&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;photo&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;attrib&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;farm&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;],&lt;/span&gt;
+             &lt;span class='n'&gt;photo&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;attrib&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;server&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;],&lt;/span&gt;&lt;span class='n'&gt;photo&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;attrib&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;id&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;],&lt;/span&gt;&lt;span class='n'&gt;photo&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;attrib&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;secret&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;])&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class='n'&gt;photoURL&lt;/span&gt;
+&lt;span class='s'&gt;&amp;#39;http://farm1.static.flickr.com/9/12379604_20464c804d_b.jpg&amp;#39;&lt;/span&gt;
+&lt;span class='o'&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;What does the above code do? Well, first we initialize a flickrapi object (line: 2), which is followed by using said object to search flickr (line: 4). If line 5 doesn&amp;#8217;t return &amp;#8220;ok&amp;#8221; then search Flickr using a different tag. On line 6 we get a list of photos returned by the search and choose the first one (there should only be one because we specified &amp;#8220;per_page=&amp;#8221;1&amp;#8221;&amp;#8220;). Finally after running the various attributes of the photo through the string formatter we have the url.&lt;/p&gt;
+
+&lt;p&gt;So there you have it. We are practically done. Just need to wrap all of the above into a script and then&amp;#8230; Oh, right, image manipulation. The essence of image manipulation is that it&amp;#8217;s easier to do when you are not working in the interpreter, so let&amp;#8217;s start laying out the script!&lt;/p&gt;
+
+&lt;h3 id='round_1'&gt;Round 1&lt;/h3&gt;
+
+&lt;p&gt;In the design process of round one I just had a basic program in mind.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Get the fortune&lt;/li&gt;
+
+&lt;li&gt;Get the tag&lt;/li&gt;
+
+&lt;li&gt;Get the flickrImage&lt;/li&gt;
+
+&lt;li&gt;Make the wallpaper&lt;/li&gt;
+
+&lt;li&gt;Update the desktop background&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As this was satisfactory, I started programming.&lt;/p&gt;
+
+&lt;h3 id='a_couple_hours_later'&gt;A couple hours later&lt;/h3&gt;
+
+&lt;p&gt;Now don&amp;#8217;t get me wrong: this should not take a couple hours. However, this is the first program I have written in Python and thus I spent awhile understanding how to use the FlickrAPI as well as debugging my python code. Unfortunately, since I wrote this program before I decided to create this website, I am unable to show you code revisions at each step, so instead I&amp;#8217;ll go over some things I ran into.&lt;/p&gt;
+
+&lt;h4 id='the_pil'&gt;The PIL&lt;/h4&gt;
+
+&lt;p&gt;The PIL is the &lt;a href='http://www.pythonware.com/products/pil/'&gt;Python Imaging Library&lt;/a&gt; which adds a ton of image related operations to the already huge Python feature set. Here is how I used it:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='kn'&gt;from&lt;/span&gt; &lt;span class='nn'&gt;PIL&lt;/span&gt; &lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='n'&gt;Image&lt;/span&gt;
+&lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;ImageDraw&lt;/span&gt;
+&lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;ImageFont&lt;/span&gt;
+
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;createWallpaper&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;flickrImage&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;fortune&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;prefix&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
+    &lt;span class='n'&gt;wallpaper&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;Image&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;new&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;RGB&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;black&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;draw&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;ImageDraw&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;Draw&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;wallpaper&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='n'&gt;flickrImage&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;Image&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;open&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;localDir&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='n'&gt;flickrImage&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;y&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;flickrImage&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;size&lt;/span&gt;
+
+    &lt;span class='n'&gt;x0&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='n'&gt;x&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='o'&gt;/&lt;/span&gt; &lt;span class='mf'&gt;2&lt;/span&gt;
+    &lt;span class='n'&gt;y0&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='n'&gt;y&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt; &lt;span class='o'&gt;/&lt;/span&gt; &lt;span class='mf'&gt;2&lt;/span&gt;
+
+    &lt;span class='n'&gt;x1&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;x0&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;x&lt;/span&gt;
+    &lt;span class='n'&gt;y1&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;y0&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;y&lt;/span&gt;
+
+    &lt;span class='n'&gt;wallpaper&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;paste&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;flickrImage&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;x0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;y0&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;x1&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;&lt;span class='n'&gt;y1&lt;/span&gt;&lt;span class='p'&gt;))&lt;/span&gt;
+
+    &lt;span class='n'&gt;boxMargin&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='mf'&gt;10&lt;/span&gt;
+
+    &lt;span class='n'&gt;font&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;ImageFont&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;truetype&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;localDir&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Sugo.ttf&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;fontsize&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;textSize&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;draw&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;textsize&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;fortune&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;font&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;font&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;textTopLeft&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;/&lt;/span&gt;&lt;span class='mf'&gt;2&lt;/span&gt; &lt;span class='o'&gt;-&lt;/span&gt; &lt;span class='n'&gt;textSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;/&lt;/span&gt;&lt;span class='mf'&gt;2&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                 &lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='n'&gt;textSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;*&lt;/span&gt;&lt;span class='mf'&gt;4&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='n'&gt;boxTopLeft&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;textTopLeft&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='n'&gt;boxMargin&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;textTopLeft&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;])&lt;/span&gt;
+    &lt;span class='n'&gt;boxBottomRight&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;/&lt;/span&gt;&lt;span class='mf'&gt;2&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='n'&gt;textSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;0&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;/&lt;/span&gt;&lt;span class='mf'&gt;2&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='n'&gt;boxMargin&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt;
+                    &lt;span class='n'&gt;wallpaperSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;-&lt;/span&gt;&lt;span class='n'&gt;textSize&lt;/span&gt;&lt;span class='p'&gt;[&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;]&lt;/span&gt;&lt;span class='o'&gt;*&lt;/span&gt;&lt;span class='mf'&gt;3&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;boxMargin&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='n'&gt;draw&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;rectangle&lt;/span&gt;&lt;span class='p'&gt;([&lt;/span&gt;&lt;span class='n'&gt;boxTopLeft&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;boxBottomRight&lt;/span&gt;&lt;span class='p'&gt;],&lt;/span&gt; &lt;span class='n'&gt;fill&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;white&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='n'&gt;draw&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;text&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;textTopLeft&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;fortune&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;font&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='n'&gt;font&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;fill&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;black&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='k'&gt;del&lt;/span&gt; &lt;span class='n'&gt;draw&lt;/span&gt;
+
+    &lt;span class='n'&gt;filename&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;wallpaperDir&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='n'&gt;prefix&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;_&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;wallpaperPrefix&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;.jpg&amp;quot;&lt;/span&gt;
+    &lt;span class='n'&gt;wallpaper&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;save&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;filename&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;JPEG&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='n'&gt;filename&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;It should be quite straight forward but for those who want a bit of a breakdown here it is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make a new blank image&lt;/li&gt;
+
+&lt;li&gt;Create a draw object which provides various image-manipulation operations&lt;/li&gt;
+
+&lt;li&gt;Open the previously downloaded Flickr image&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;Paste&amp;#8221; the Flickr image into the center of the wallpaper&lt;/li&gt;
+
+&lt;li&gt;The next 11 lines create a font instance using the Sugo font, calculate its position, draw a white box and finally draw the fortune.&lt;/li&gt;
+
+&lt;li&gt;Finally we save and return the file name of the new wallpaper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simple as pie. I realize that the above code is heavily unoptimized, however this will be fixed in version two (discussed later).&lt;/p&gt;
+
+&lt;h4 id='downloading_and_saving_the_flickr_image'&gt;Downloading and saving the Flickr image&lt;/h4&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='kn'&gt;import&lt;/span&gt; &lt;span class='nn'&gt;urllib2&lt;/span&gt;
+
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;getImageData&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;url&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
+    &lt;span class='k'&gt;try&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='n'&gt;urllib2&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;urlopen&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;url&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;read&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+    &lt;span class='k'&gt;except&lt;/span&gt; &lt;span class='n'&gt;urllib2&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;URLError&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='n'&gt;urlib2_URLError&lt;/span&gt;
+        &lt;span class='nb'&gt;exit&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+&lt;span class='k'&gt;def&lt;/span&gt; &lt;span class='nf'&gt;saveFlickrImage&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;imageData&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;prefix&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
+    &lt;span class='n'&gt;fileName&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;prefix&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;_&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='n'&gt;flickrPrefix&lt;/span&gt;&lt;span class='o'&gt;+&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;.jpg&amp;quot;&lt;/span&gt;
+
+    &lt;span class='k'&gt;try&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='n'&gt;f&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nb'&gt;open&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;localDir&lt;/span&gt; &lt;span class='o'&gt;+&lt;/span&gt; &lt;span class='n'&gt;fileName&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;#39;w&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='k'&gt;except&lt;/span&gt; &lt;span class='ne'&gt;IOError&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='k'&gt;print&lt;/span&gt; &lt;span class='ne'&gt;IOError&lt;/span&gt;
+        &lt;span class='nb'&gt;exit&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='mf'&gt;1&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+
+    &lt;span class='n'&gt;f&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;write&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;imageData&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='n'&gt;f&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;close&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+
+    &lt;span class='k'&gt;return&lt;/span&gt; &lt;span class='n'&gt;fileName&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;I love urllib2. Oh and Python&amp;#8217;s file handling. Anyways, this code is extremely self explanatory. The reason this process was divided into two functions is that I wasn&amp;#8217;t sure if I needed to use the save function multiple times and so I seperated it. In the end I only used it once, and thus it might be merged with getImageData in V2.&lt;/p&gt;
+
+&lt;h3 id='dealing_with_arguments'&gt;Dealing with arguments&lt;/h3&gt;
+
+&lt;p&gt;At this point you have seen most of the code I used in the final script; the fortune/Flickr accessing part from our Python Interactive Shell experience, and the above two code snippets. However after I wrote the script I added a couple other simple features which required the usage of program arguments. These new features were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Looping n times (bulk generate wallpapers)&lt;/li&gt;
+
+&lt;li&gt;Add color to the output (using bash shell color codes)&lt;/li&gt;
+
+&lt;li&gt;Only change the desktop background if the -s flag is provided&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This of course brings me to one of my favorite modules in Python: getopt.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;span class='k'&gt;try&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+    &lt;span class='n'&gt;opts&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;args&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='n'&gt;getopt&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;getopt&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;argv&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;optsString&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;optsList&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+&lt;span class='k'&gt;except&lt;/span&gt; &lt;span class='n'&gt;getopt&lt;/span&gt;&lt;span class='o'&gt;.&lt;/span&gt;&lt;span class='n'&gt;GetoptError&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+    &lt;span class='n'&gt;usage&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+
+&lt;span class='k'&gt;for&lt;/span&gt; &lt;span class='n'&gt;opt&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='n'&gt;arg&lt;/span&gt; &lt;span class='ow'&gt;in&lt;/span&gt; &lt;span class='n'&gt;opts&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+    &lt;span class='k'&gt;if&lt;/span&gt; &lt;span class='n'&gt;opt&lt;/span&gt; &lt;span class='ow'&gt;in&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;quot;-h&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;--help&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
+        &lt;span class='n'&gt;usage&lt;/span&gt;&lt;span class='p'&gt;()&lt;/span&gt;
+    &lt;span class='k'&gt;elif&lt;/span&gt; &lt;span class='n'&gt;opt&lt;/span&gt; &lt;span class='ow'&gt;in&lt;/span&gt; &lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='s'&gt;&amp;#39;-n&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;,&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;--number&amp;quot;&lt;/span&gt;&lt;span class='p'&gt;):&lt;/span&gt;
+        &lt;span class='n'&gt;numWallpapers&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='nb'&gt;int&lt;/span&gt;&lt;span class='p'&gt;(&lt;/span&gt;&lt;span class='n'&gt;arg&lt;/span&gt;&lt;span class='p'&gt;)&lt;/span&gt;
+    &lt;span class='k'&gt;elif&lt;/span&gt; &lt;span class='n'&gt;opt&lt;/span&gt; &lt;span class='o'&gt;==&lt;/span&gt; &lt;span class='s'&gt;&amp;#39;-s&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='n'&gt;updateBackground&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='bp'&gt;True&lt;/span&gt;
+    &lt;span class='k'&gt;elif&lt;/span&gt; &lt;span class='n'&gt;opt&lt;/span&gt; &lt;span class='o'&gt;==&lt;/span&gt; &lt;span class='s'&gt;&amp;#39;-c&amp;#39;&lt;/span&gt;&lt;span class='p'&gt;:&lt;/span&gt;
+        &lt;span class='n'&gt;colors&lt;/span&gt; &lt;span class='o'&gt;=&lt;/span&gt; &lt;span class='bp'&gt;True&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Wow. That is way too easy. I recently implemented my own version of getopt for a class assignment and its a significant amount of code that is a pain to write. I assume that the getopt module is implemented in c which is another benefit of using python&amp;#8217;s implementation.&lt;/p&gt;
+
+&lt;h3 id='so_whats_left'&gt;So whats left?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://github.com/carlsverre/FlickrFortune/tarball/release_v1'&gt;Download Version 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://github.com/carlsverre/FlickrFortune/'&gt;FlickrFortune @ GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='next_steps'&gt;Next Steps&lt;/h3&gt;
+
+&lt;p&gt;As I said above in a number of places I am planning on continuing the development of FlickrFortune. Here are the following changes which will be implemented:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make the code smarter, lighter and more optimized. Specifically the create wallpaper function.&lt;/li&gt;
+
+&lt;li&gt;Create an interface for setting the desktop background so that it can be easily implemented on other systems.&lt;/li&gt;
+
+&lt;li&gt;A smarter searching algorithm which will choose a different tag from the fortune if the first one did not return a usable image (or any image).&lt;/li&gt;
+
+&lt;li&gt;Allow the user to specify a file of fortunes and create a wallpaper for each one&lt;/li&gt;
+
+&lt;li&gt;Give the option to generate wallpapers in multiple sizes&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ 
+</feed>

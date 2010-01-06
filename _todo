@@ -1,0 +1,6 @@
+* Rake tasks:
+  + finish list
+  + edit task which opens the chosen post in vim (or `editor`)
+  + finish post, add more options (like guest author [y/N])
+* actually build deploy system
+* github repo

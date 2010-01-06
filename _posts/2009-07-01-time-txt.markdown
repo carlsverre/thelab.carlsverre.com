@@ -1,0 +1,27 @@
+---
+title: "Time.txt"
+subtitle: "Plain-text time tracking"
+layout: post
+---
+{% include md_helpers.md %}
+
+This post is **out of date**.  It is only here for posterity.
+{:note}
+
+The web is plagued with programs and websites pledging that they can solve all your time-management and todo-list problems.  People such as David Allen have come up with systems such as <a title="getting things done" href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> to help get things done.  For some people these various methods work fine, but for others we just need to be able to create our own system.  About a month ago I finally got fed up with all the various todo lists and time tracking interfaces I had to deal with, so I set out to create my own evolving masterpiece.  I call it time.txt inspired by <a title="todo.txt" href="http://ginatrapani.github.com/todo.txt-cli/">todo.txt</a> (a great command-line-interface (CLI) todo list).
+
+### What does it solve?
+The idea is that Time.txt will evolve to become a complete CLI project management suite which can be updated through twitter (and via twitter, sms) and provide all the statistics you will ever need.  The next release will integrate the following:
+
+* A backend stats sqlite3 database.  This will be synced from the text database in order to efficiently store long term stats and to provide an universal interface to the stats for your own hacking purposes.
+* Export-to-excel functionality
+
+Once those parts have been added, time.txt will hit v1.  After that, a twitter bot will be added and more features will be planned.
+
+### Contribute!
+Time.txt is open source and licensed under the GPL so feel free to fork it on github and have at it!  If I like what you change ill merge it back into the main branch.
+
+### Get Time.txt
+
+* [Download Version 0.9](http://github.com/carlsverre/time.txt/downloads)
+* [Visit Time.txt @ Github.com](http://github.com/carlsverre/time.txt)
