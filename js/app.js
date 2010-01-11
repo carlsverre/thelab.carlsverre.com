@@ -61,7 +61,7 @@ function get_github_repos(selector,limit) {
     $.each(data.repositories, function () {
       var html = "<li class='article github-repo'>";
       html += "<h4><a href='"+this.url+"'>"+this.name+"</a></h4>";
-      html += "<div class='meta'>"+trim_len(this.description,125)+"</div></li>";
+      html += "<div class='meta'>"+trim_len(this.description,100)+"</div></li>";
       $(selector).append(html);
       if(++i>limit)return false;
     });
