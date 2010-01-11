@@ -22,11 +22,6 @@ task :post do |t, args|
   end
 end
 
-desc "Auto-regen site and start local dev server"
-task :local do
-  `jekyll --auto --server`
-end
-
 desc "Deploy site to web"
 task :deploy do
   require 'rubygems'
@@ -35,17 +30,18 @@ task :deploy do
 
   branch = 'master'
 
-  username = ask("Username:  ") { |q| q.echo = true }
-  password = ask("Password:  ") { |q| q.echo = "*" }
+  #username = ask("Username:  ") { |q| q.echo = true }
+  #password = ask("Password:  ") { |q| q.echo = "*" }
 
-  Net::SSH.start("bloonlabs.com", username, :password => password, :port => 22) do |ssh| 
+  Net::SSH.start("bloonlabs.com", "bloonla", :port => 22) do |ssh| 
     commands = <<EOF
 cd ~/thelab.carlsverre.com
 git checkout #{branch}
 git pull origin #{branch}
 git checkout -f
 rm -rf _site
-jekyll --no-auto
+jekyll
+rsync -r --delete _site/ _online/
 EOF
     commands = commands.gsub(/\n/, "; ")
     ssh.exec commands

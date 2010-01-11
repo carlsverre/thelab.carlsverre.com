@@ -46,7 +46,7 @@ function load_jcaption(){
 }
 
 function trim_len(str,len) {
-  var l = str.length
+  var l = str.length;
   if(l > len) {
     str = str.substr(0,len) + '...';
   } else if (l < .66*len) {
@@ -57,14 +57,17 @@ function trim_len(str,len) {
 
 function get_github_repos(selector,limit) {
   $.getJSON("http://github.com/api/v2/json/repos/show/carlsverre?callback=?", function(data) {
-    var i=1;
-    $.each(data.repositories, function () {
+    data.repositories.reverse();
+    var j = 1;
+    for(var i in data.repositories) {
+      var repo = data.repositories[i];
+      if(repo.fork) continue;
       var html = "<li class='article github-repo'>";
-      html += "<h4><a href='"+this.url+"'>"+this.name+"</a></h4>";
-      html += "<div class='meta'>"+trim_len(this.description,100)+"</div></li>";
+      html += "<h4><a href='"+repo.url+"'>"+repo.name+"</a></h4>";
+      html += "<div class='meta'>"+trim_len(repo.description,100)+"</div></li>";
       $(selector).append(html);
-      if(++i>limit)return false;
-    });
+      if(++j>limit) break;
+    }
     Cufon.refresh('h4');
   });
 }
