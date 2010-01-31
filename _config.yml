@@ -1,5 +1,5 @@
 pygments: true
-pygments_cache: /home/carl/.caches/pygments
+pygments_cache: /home/#{ENV['USER']}/.caches/pygments
 permalink: pretty
 
 owner: Carl Sverre
