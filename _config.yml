@@ -1,6 +1,6 @@
 pygments: true
 pygments_cache: /home/#{ENV['USER']}/.caches/pygments
-permalink: pretty
+permalink: /:year/:month/:day/:title
 
 owner: Carl Sverre
 owner_url: http://www.carlsverre.com
