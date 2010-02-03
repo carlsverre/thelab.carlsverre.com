@@ -6,5 +6,5 @@ handlers:
   static_files: '/_site/\1/\2/\3/\4/index.html'
   upload: '_site/.*'
 - url: '/(.*)/(.*)'
-  static_dir: '_site/\1/\2'
+  static_files: '_site/\1/\2'
   upload: '_site/.*'
