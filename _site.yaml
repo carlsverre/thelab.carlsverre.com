@@ -1,7 +1,10 @@
 handlers:
 - url: '/'
-  static_files: '_site/index.html'
-  upload: '_site/index.html'
+  static_files: '_site/index.html _site/atom.xml _site/rss.xml'
+  upload: '_site/.*'
 - url: '/(.*?)/(.*?)/(.*?)/(.*?)/?'
   static_files: '/_site/\1/\2/\3/\4/index.html'
+  upload: '_site/.*'
+- url: '/(.*)/(.*)'
+  static_dir: '_site/\1/\2'
   upload: '_site/.*'

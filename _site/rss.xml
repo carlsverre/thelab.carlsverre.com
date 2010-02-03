@@ -5,14 +5,14 @@
     <link>http://thelab.carlsverre.com</link>
     <language>en</language>
     <webMaster>carl@carlsverre.com (Carl Sverre)</webMaster>
-    <pubDate>2010-02-02T22:53:22-08:00</pubDate>
+    <pubDate>2010-02-03T00:15:51-08:00</pubDate>
     <copyright>Copyright 2009-2010</copyright>
     <ttl>60</ttl>
     <description>Code, sweet code.</description>
     
     <item>
       <title>The New Lab</title>
-      <link>http://thelab.carlsverre.com/2010/01/06/the-new-lab/</link>
+      <link>http://thelab.carlsverre.com/2010/01/06/the-new-lab</link>
       <pubDate>2010-01-06T00:00:00-08:00</pubDate>
       <guid>http://thelab.carlsverre.com/post/2010/01/06/the-new-lab/</guid>
       <description>&lt;p&gt;Welcome to the latest incarnation of &lt;strong&gt;The Lab&lt;/strong&gt;&lt;em&gt;@carlsverre.com&lt;/em&gt;. For those of you who looked at the last site, you will understand why its not archived. As for everyone else, lets just say that it grew to be a bit too busy. I did not stick to the plan (which was to keep things minimal) and I suffered because of it. &lt;strong&gt;The Lab&lt;/strong&gt; was supposed to be a place where I could expose the &lt;em&gt;process&lt;/em&gt; of writing code. It was supposed to encourage me to write more code with my lofty &lt;strong class='highlight'&gt;one project a month&lt;/strong&gt; goal. Unfortunatly it failed in many ways. So here I am, once again with a new site and a new dream.&lt;/p&gt;
@@ -64,7 +64,7 @@
     
     <item>
       <title>What the flickr?!</title>
-      <link>http://thelab.carlsverre.com/2009/09/01/what-the-flickr/</link>
+      <link>http://thelab.carlsverre.com/2009/09/01/what-the-flickr</link>
       <pubDate>2009-09-01T00:00:00-07:00</pubDate>
       <guid>http://thelab.carlsverre.com/post/2009/09/01/what-the-flickr/</guid>
       <description>&lt;p&gt;I have once again delved into the world of imagery, and conjured up a interesting project combining &lt;a href='http://code.google.com/appengine/' title='Google App Engine'&gt;Google App Engine&lt;/a&gt;, &lt;a href='http://www.djangoproject.com/' title='Django'&gt;Django&lt;/a&gt;, &lt;a href='http://www.python.org/' title='Python'&gt;Python&lt;/a&gt;, &lt;a href='http://code.google.com/p/flickrpy/'&gt;FlickrPy&lt;/a&gt; and &lt;a href='http://www.flickr.com/' title='Flickr'&gt;Flickr&lt;/a&gt;. The project&amp;#8217;s idea is that with Flickr&amp;#8217;s huge resource of images one should be able to create a game similar to &lt;a href='http://en.wikipedia.org/wiki/Pictionary' title='pictionary'&gt;pictionary&lt;/a&gt;, with the player guessing and Flickr &amp;#8220;drawing&amp;#8221;. My attempt at making this game is called &lt;strong&gt;What the Flickr?!&lt;/strong&gt;&lt;/p&gt;
@@ -90,7 +90,7 @@
     
     <item>
       <title>XP + Linux</title>
-      <link>http://thelab.carlsverre.com/2009/08/01/guest-xp-dualbooting-linux/</link>
+      <link>http://thelab.carlsverre.com/2009/08/01/guest-xp-dualbooting-linux</link>
       <pubDate>2009-08-01T00:00:00-07:00</pubDate>
       <guid>http://thelab.carlsverre.com/post/2009/08/01/guest-xp-dualbooting-linux/</guid>
       <description>&lt;p&gt;Hello there! The following post regarding Windows XP, dual booting and Linux has been contributed by my friend Kris Koiner. It is quite a heavy article, but I believe its a good read. It is posted here solely in the hope that it will benefit someone somehow sometime&amp;#8230; somewhere.&lt;/p&gt;
@@ -380,7 +380,7 @@
     
     <item>
       <title>Time.txt</title>
-      <link>http://thelab.carlsverre.com/2009/07/01/time-txt/</link>
+      <link>http://thelab.carlsverre.com/2009/07/01/time-txt</link>
       <pubDate>2009-07-01T00:00:00-07:00</pubDate>
       <guid>http://thelab.carlsverre.com/post/2009/07/01/time-txt/</guid>
       <description>&lt;p class='note'&gt;This post is &lt;strong&gt;out of date&lt;/strong&gt;. It is only here for posterity.&lt;/p&gt;
@@ -414,7 +414,7 @@
     
     <item>
       <title>FlickrFortune</title>
-      <link>http://thelab.carlsverre.com/2009/06/01/flickrfortune/</link>
+      <link>http://thelab.carlsverre.com/2009/06/01/flickrfortune</link>
       <pubDate>2009-06-01T00:00:00-07:00</pubDate>
       <guid>http://thelab.carlsverre.com/post/2009/06/01/flickrfortune/</guid>
       <description>&lt;p class='note'&gt;This post is &lt;strong&gt;out of date&lt;/strong&gt;. It is only here for posterity.&lt;/p&gt;
