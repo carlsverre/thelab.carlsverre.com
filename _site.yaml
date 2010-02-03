@@ -1,4 +1,3 @@
 handlers:
-- url: '/(.*)'
-  static_files: _site/\1
-  upload: _site/(.*)
+- url: '/'
+  static_dir: _site/
