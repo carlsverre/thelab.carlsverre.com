@@ -1,5 +1,14 @@
 require 'lib/slugalizer'
 
+desc "Commit & push to github"
+task :push do
+  require 'highline/import'
+
+  commit_msg = ask("Commit Message:  ");
+  `git commit -a -m "#{commit_msg}"`
+  `git push origin master`
+end
+
 desc "Create a new post"
 task :post do |t, args|
   require 'highline/import'
@@ -19,42 +28,6 @@ task :post do |t, args|
     post.puts %!layout: post!
     post.puts "---"
     post.puts "{% include md_helpers.md %}"
-  end
-end
-
-desc "Deploy updates"
-task :deploy => [:push, :update_web]
-
-desc "Commit & push to github"
-task :push do
-  require 'highline/import'
-
-  commit_msg = ask("Commit Message:  ");
-  `git commit -a -m "#{commit_msg}"`
-  `git push origin master`
-end
-
-desc "Deploy site to web"
-task :update_web do
-  require 'rubygems'
-  require 'highline/import'
-  require 'net/ssh'
-
-  branch = "master"
-
-  Net::SSH.start("bloonlabs.com", "bloonla", :port => 22) do |ssh| 
-    commands = <<EOF
-cd ~/thelab.carlsverre.com
-git checkout #{branch}
-git pull origin #{branch}
-git checkout -f
-git pull
-rm -rf _site
-jekyll
-rsync -r --delete _site/ _online/
-EOF
-    commands = commands.gsub(/\n/, "; ")
-    ssh.exec commands
   end
 end
 
@@ -81,5 +54,3 @@ task :list do
     i+=1
   end
 end
-
-    
