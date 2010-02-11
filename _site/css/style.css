@@ -26,7 +26,7 @@ body {
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6, p, ol, ul {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom:12px;
   line-height: 1.2em;
   color: #2B333B;
@@ -50,6 +50,14 @@ h4 {
 }
 h5 {
   font-size: 1.3em;
+}
+
+/* Paragraph */
+
+p, ol, ul {
+  margin-bottom:12px;
+  line-height: 1.4em;
+  color: #2B333B;
 }
 
 /* Inlines */
@@ -83,6 +91,7 @@ a:hover {
 
 .caption {
   position: relative;
+  line-height: 0;
 }
 
 .caption img {
@@ -90,17 +99,17 @@ a:hover {
 }
 
 .caption p {
-background: rgb(0,0,0);
-background: rgba(0,0,0,0.8);
-color:white;
-font-family: Verdana, Geneva, sans-serif;
-font-size:0.8em;
-bottom:0;
-left:0;
-margin:0;
-padding: 5px 0 5px 15px;
-width: 100%;
-position:absolute;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.8);
+  color:white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size:0.8em;
+  bottom:0;
+  left:0;
+  margin:0;
+  padding: 5px 0 5px 15px;
+  width: 768px;
+  position:absolute;
 }
 
 /* Lists */
@@ -183,8 +192,8 @@ blockquote.pull-right {
 .note {
   border-top: 0.25em solid #FFC62F;
   border-bottom: 0.25em solid #FFC62F;
-  background-color: #F3FF8F;
+  background-color: #FFFFBB;
   padding: 0.5em;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
 }

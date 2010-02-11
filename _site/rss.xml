@@ -5,10 +5,97 @@
     <link>http://thelab.carlsverre.com</link>
     <language>en</language>
     <webMaster>carl@carlsverre.com (Carl Sverre)</webMaster>
-    <pubDate>2010-02-09T23:14:30-08:00</pubDate>
+    <pubDate>2010-02-11T00:14:06-08:00</pubDate>
     <copyright>Copyright 2009-2010</copyright>
     <ttl>60</ttl>
     <description>Code, sweet code.</description>
+    
+    <item>
+      <title>Static Hosting</title>
+      <link>http://thelab.carlsverre.com/2010/02/09/static-hosting</link>
+      <pubDate>2010-02-09T00:00:00-08:00</pubDate>
+      <guid>http://thelab.carlsverre.com/post/2010/02/09/static-hosting/</guid>
+      <description>&lt;p&gt;&lt;a href='http://carlsverre.com/' title='Carl Sverre'&gt;Carlsverre.com&lt;/a&gt; has just shifted from &lt;a href='http://hostingrails.com'&gt;Hostingrails.com&lt;/a&gt; to a combination of &lt;a href='http://github.com'&gt;Github&lt;/a&gt; and &lt;a href='http://code.google.com/appengine'&gt;Google App Engine&lt;/a&gt;. The transfer was prompted because my Hosting Rails account expires in 4 days. At first I was just going to renew, but the more I thought about the joyous union of Git commits and appengine pulls, the more my mind was made up. So now that I got all the kinks worked out, here is a short tutorial for those of you who want to do it yourselves.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nv'&gt;$ &lt;/span&gt;&lt;span class='nb'&gt;cd&lt;/span&gt; ~/dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id='drydrop'&gt;DryDrop&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href='http://drydrop.binaryage.com'&gt;DryDrop&lt;/a&gt; is the key to the whole process. Developed by Antonin Hildebrand, DryDrop allows anyone to quickly deploy to Google App Engine from a Github repo. DryDrop is a Python application which grabs all the files in your repo, stores them in the Google cloud and serves them on your App Engine URL. Grab DryDrop from its Github repo like so:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nv'&gt;$ &lt;/span&gt;git clone git://github.com/darwin/drydrop.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;You will also need the Google App Engine SDK which you can get &lt;a href='http://code.google.com/appengine/downloads.html'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id='getting_the_right_info'&gt;Getting the right info&lt;/h3&gt;
+
+&lt;p&gt;To follow with this tutorial you will need a Github repo full of static files. Something similar to my &lt;a href='http://github.com/carlsverre/carlsverre.github.com'&gt;Carlsverre.com repo&lt;/a&gt; would be perfect. Once you have your repo setup you will need to figure out what your raw pulling url is. A generic raw pulling url looks like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;http://github.com/USERNAME/REPONAME/raw/BRANCHNAME&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;USERNAME&lt;/em&gt; and &lt;em&gt;REPONAME&lt;/em&gt; should be obvious. Use master for &lt;em&gt;BRANCHNAME&lt;/em&gt; unless you have another branch full of static files. My raw pulling url looks like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;http://github.com/carlsverre/carlsverre.github.com/raw/master&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To test it out, try navigating to the url followed by the name of a file in the repo. If you have the url right, the current version of the file in the specified branch should be returned.&lt;/p&gt;
+
+&lt;p&gt;Take a note of your raw pulling url now - we will need it later.&lt;/p&gt;
+
+&lt;h3 id='setting_up_app_engine'&gt;Setting up App Engine&lt;/h3&gt;
+
+&lt;p&gt;The next step is to get your appengine project registered. Login using your Google account to the &lt;a href='http://appengine.google.com'&gt;App Engine management console&lt;/a&gt; and click &lt;strong class='highlight'&gt;Create an Application&lt;/strong&gt;. Once you have created an application, head back to the terminal to upload DryDrop.&lt;/p&gt;
+
+&lt;p class='note'&gt;Make sure you replace PROJECTNAME and other obvious variables with your own words.&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nv'&gt;$ &lt;/span&gt;&lt;span class='nb'&gt;cd&lt;/span&gt; ~/dev/drydrop
+&lt;span class='nv'&gt;$ &lt;/span&gt;rake upload &lt;span class='nv'&gt;project&lt;/span&gt;&lt;span class='o'&gt;=&lt;/span&gt;&lt;span class='nv'&gt;$PROJECTNAME&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id='initializing_drydrop'&gt;Initializing DryDrop&lt;/h3&gt;
+
+&lt;p&gt;Now that you have uploaded DryDrop, it&amp;#8217;s configuration time. Head to your shiny new project url (PROJECTNAME.appspot.com) and click &lt;strong class='highlight'&gt;admin section&lt;/strong&gt;. The only setting we will change right now is the &lt;strong&gt;Content Source&lt;/strong&gt; which you can find in the &lt;strong&gt;Settings&lt;/strong&gt; tab on the left.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/images/statichosting_drydropsettings.jpg' alt='The DryDrop settings tab' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the pulling from url and change it to the raw pulling url you created earlier. Woo we are 99% there!&lt;/p&gt;
+
+&lt;h3 id='the_last_step'&gt;The last step&lt;/h3&gt;
+
+&lt;p&gt;All you have left to do is setup a post-commit hook from your Github repo to your shiny new DryDrop app. Follow these steps and your set:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to the Admin section of your Github repo&lt;/li&gt;
+
+&lt;li&gt;Click the &lt;strong class='highlight'&gt;Service Hooks&lt;/strong&gt; tab&lt;/li&gt;
+
+&lt;li&gt;Click &lt;strong class='highlight'&gt;Post-Receive URLs&lt;/strong&gt; on the left&lt;/li&gt;
+
+&lt;li&gt;Add the following url (with keywords replaced) to your Post-Receive URLS:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;http://YOURGOOGLEAPPNAME.appspot.com/hook/github&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id='can_i_use_jekyll_with_drydrop'&gt;Can I use Jekyll with DryDrop?&lt;/h3&gt;
+
+&lt;p&gt;A growing number of Github users are using &lt;a href='http://jekyllrb.com'&gt;Jekyll&lt;/a&gt; to create static sites for their Github projects. I use it to power this blog and am extremely happy with the result. As for using Jekyll with Drydrop I suggest one of two options:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a &lt;strong&gt;_site.yaml&lt;/strong&gt; file in the root of your Github repo which wrangles Drydrop into pointing requests in the right direction&lt;/li&gt;
+
+&lt;li&gt;Commit Jekyll&amp;#8217;s output directory into a different branch and point Drydrop to that branch rather than your master&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I am eventually going to switch to option #2 as I see that as being a cleaner solution. For reference on how to set up your &lt;strong&gt;_site.yaml&lt;/strong&gt; file you can check out mine &lt;a href='http://github.com/carlsverre/thelab.carlsverre.com/blob/master/_site.yaml'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id='comments_suggestions'&gt;Comments? Suggestions?&lt;/h3&gt;
+
+&lt;p&gt;This is the first tutorial posted on my shiny new Jekyll blog, so I would love any feedback that you&amp;#8217;d care to share. I currently haven&amp;#8217;t setup a main feedback system, but it is in the workings. For now you can get in touch with me via &lt;a href='http://www.twitter.com/carlsverre'&gt;Twitter&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The New Lab</title>
