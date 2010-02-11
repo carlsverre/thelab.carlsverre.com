@@ -5,6 +5,7 @@ task :push do
   require 'highline/import'
 
   commit_msg = ask("Commit Message:  ");
+  `rm -rf _site/*; jekyll`
   `git commit -a -m "#{commit_msg}"`
   `git push origin master`
 end
