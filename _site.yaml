@@ -1,6 +1,6 @@
 handlers:
 - url: '/'
-  static_files: '_site/index.html _site/atom.xml _site/rss.xml _site/google86a98273daabbacc.html'
+  static_files: '_site/index.html'
   upload: '_site/.*'
 - url: '/(.*)'
   static_files: '_site/\1'
