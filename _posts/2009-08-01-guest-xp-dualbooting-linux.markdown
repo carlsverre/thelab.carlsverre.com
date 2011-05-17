@@ -26,7 +26,7 @@ The 200GB and 320GB are split into 3 partitions and raided together:
 * md2: 140GB: raid0: sda2 + sdc2: /
 * md3: 120GB: raid1: sda3 & sdc3: /home
 
-As you can see, there's ~120GB of unused space at the end of the 320GB. The idea is to install Windows XP on the forth primary partition formatted as NTFS. Seems simple, right? Let's begin.
+As you can see, there's ~120GB of unused space at the end of the 320GB. The idea is to install Windows XP on the fourth primary partition formatted as NTFS. Seems simple, right? Let's begin.
 
 ### Definitions
 
@@ -76,11 +76,11 @@ After about 8 minutes of "loading drivers" and "getting ready to install Windows
 
 After being presented with a list of 8 locations to install XP, I selected the unformatted space at the end of my 320GB. Windows asks me if I would like to create a partition, I say yes, and it tells me it can't.
 
->Problem 2: Windows cannot create a forth primary partition.
+>Problem 2: Windows cannot create a fourth primary partition.
 
-This problem makes little sense, but upon reconsideration, it is fairly logical: the MBR only has space for 4 entries (thus, 4 primary partitions), yet, it is possible to have more than 4 partitions by using extended (or logical) partitions. This takes up an entry in the MBR and allows a second partition table somewhere else on the disk to deal with extended partitions. I assume that Windows reserves the forth entry in the primary partition table for an extended partition, thereby not allowing a forth primary partition. Makes sense (still stupid). Aside: it might be possible to install XP on an extended partition, but I had my mind set on the forth primary, so I needed a fix. Maybe Linux can help me out...
+This problem makes little sense, but upon reconsideration, it is fairly logical: the MBR only has space for 4 entries (thus, 4 primary partitions), yet, it is possible to have more than 4 partitions by using extended (or logical) partitions. This takes up an entry in the MBR and allows a second partition table somewhere else on the disk to deal with extended partitions. I assume that Windows reserves the fourth entry in the primary partition table for an extended partition, thereby not allowing a fourth primary partition. Makes sense (still stupid). Aside: it might be possible to install XP on an extended partition, but I had my mind set on the fourth primary, so I needed a fix. Maybe Linux can help me out...
 
->Fix 2: Boot into Linux, install NTFS drivers, create forth primary partition as NTFS.
+>Fix 2: Boot into Linux, install NTFS drivers, create fourth primary partition as NTFS.
 
 This process went relatively smoothly, so no real complaints. Don't forget to re-enable the drives or you won't be able to get into Linux. Also, after creating the partition and rebooting, don't forget to disable the drives before trying to load Windows.
 
@@ -117,7 +117,7 @@ So before we can modify our corrupted boot.ini file, we must now fix Ubuntu. Pop
 
 >Fix 5: Use a Linux live-CD to reinstall GRUB.
 
-After logging in, we mount the first partition and open the boot.ini file in our favorite editor (mine is vim). Just as I suspected, the XP entries point to the forth partition on the first disk. Each boot.ini entry contains three fields: the controller, the disk, and the partition. Now since SATA only hosts one drive per controller (okay, not quite true, but roll with it), we know that the disk will be '0', as opposed to in olden days when you would differentiate between the master and the slave drive. Thus, we could bet that the correct path to the XP partition would be 1-0-4; the controller and disk numbers start at zero whereas the partitions start at one, why, I don't know, but that's a different rant. Just to be safe, I'll make a bunch more entries with the different combinations so that I don't have to repeat this process over and over again.
+After logging in, we mount the first partition and open the boot.ini file in our favorite editor (mine is vim). Just as I suspected, the XP entries point to the fourth partition on the first disk. Each boot.ini entry contains three fields: the controller, the disk, and the partition. Now since SATA only hosts one drive per controller (okay, not quite true, but roll with it), we know that the disk will be '0', as opposed to in olden days when you would differentiate between the master and the slave drive. Thus, we could bet that the correct path to the XP partition would be 1-0-4; the controller and disk numbers start at zero whereas the partitions start at one, why, I don't know, but that's a different rant. Just to be safe, I'll make a bunch more entries with the different combinations so that I don't have to repeat this process over and over again.
 
 Upon rebooting, all boot.ini possibilities resulted in the same "Hal.dll might be missing or corrupt" error. This lead me to believe that despite all its efforts, XP really didn't want to run from a second hard drive. Since the situation wasn't about to change, and knowing that an alternate boot loader, LILO, can boot Windows from a second hard drive, I figured I'd try LILO instead of GRUB.
 
@@ -128,18 +128,18 @@ Long-story-short, between the man pages of LILO and google, I was fighting my wa
 
 Knowing that GRUB can chain-load boot records, I would need a Windows XP boot record on my XP partition. But, XP installs it on the first partition of the first drive, remember?
 
->Problem 6: Need XP boot record on forth partition.
+>Problem 6: Need XP boot record on fourth partition.
 
-So here's the idea: we're going to take the boot record from the first drive, first partition and move it to the second hard drive, forth partition. At which point GRUB can go in the MBR, load its stage2 from the first drive, and then chain-load to the second drive.
+So here's the idea: we're going to take the boot record from the first drive, first partition and move it to the second hard drive, fourth partition. At which point GRUB can go in the MBR, load its stage2 from the first drive, and then chain-load to the second drive.
 
-But, we have another problem: the XP install creates the first partition on the first drive as FAT16, whereas our forth partition is NTFS, so we can't directly copy the PBR. So, we're going to repeat the entire install process, but this time on a FAT32 partition so that we can transfer the PBR.
+But, we have another problem: the XP install creates the first partition on the first drive as FAT16, whereas our fourth partition is NTFS, so we can't directly copy the PBR. So, we're going to repeat the entire install process, but this time on a FAT32 partition so that we can transfer the PBR.
 
 >Fix 6: Reinstall XP on a FAT32 partition and transfer the PBR.
 
 Okay, here we go.
 
 ### Hour 5
-Reboot the computer, disable the drives, wait for the installer to load everything it needs, delete the old partition, create the new... oops, forgot, Windows can't create a forth partition. Reboot, enable the drives, boot into Linux, open parted, delete the NTFS partition, create a FAT32 partition, save, reboot. Disable drives, wait for the installer, XP needs first partition on first drive? Yes, take a nap.
+Reboot the computer, disable the drives, wait for the installer to load everything it needs, delete the old partition, create the new... oops, forgot, Windows can't create a fourth partition. Reboot, enable the drives, boot into Linux, open parted, delete the NTFS partition, create a FAT32 partition, save, reboot. Disable drives, wait for the installer, XP needs first partition on first drive? Yes, take a nap.
 
 Wake up to the start screen again, reboot, enable drives, this time, however, we're not expecting XP to load, and it doesn't, so no surprises.
 
@@ -166,7 +166,7 @@ By this time, I was just getting frustrated with all the problems that XP was th
 >Fix 8: Give up, comply with XP and give it space on the first drive.
 
 ### Hour 9
-I decided that I would flip the 200GB and 320GB drives so that the 320GB was the first drive and the 200GB was the second. This would make the XP partition the forth partition on the first drive, where XP would hopefully be a little happier. But first, I have to restore everything the way it was before I started, or my Linux might stop working.
+I decided that I would flip the 200GB and 320GB drives so that the 320GB was the first drive and the 200GB was the second. This would make the XP partition the fourth partition on the first drive, where XP would hopefully be a little happier. But first, I have to restore everything the way it was before I started, or my Linux might stop working.
 
 Loading Linux again, I deleted the Windows partitions, re-created my raid partitions, re-added them, and rebuilt the arrays. Turned off the computer, opened it up, swapped the SATA cables, and powered it back on. Load into Linux, make sure all the drives are still in the arrays, adjust any mount points that have been broken. Overall, system looks good, time to try Windows again.
 
@@ -179,7 +179,7 @@ So XP won't even work when it's given space on the first drive, what could it po
 >Fix 9: Completely abandon all plans and just give XP its own drive.
 
 ### Hour 10
-Open the computer again, install the now-forth hard drive, disable the drives, wait for the installer, point it to the forth drive this time, and for some reason, it doesn't want the first partition on the first drive. That's weird, so it only must have it when it's not the first partition or on the first drive. Moving on, it installs for a while, reboots, I enable the drives again, and... no way, it actually boots in to the second part of the install. Victory!
+Open the computer again, install the now-fourth hard drive, disable the drives, wait for the installer, point it to the fourth drive this time, and for some reason, it doesn't want the first partition on the first drive. That's weird, so it only must have it when it's not the first partition or on the first drive. Moving on, it installs for a while, reboots, I enable the drives again, and... no way, it actually boots in to the second part of the install. Victory!
 
 So now we get to sit back and laugh in disgust at all the propaganda that is shown to us during the install: "..faster and more reliable" "..easiest Windows yet", "..latest hardware and software", "most dependable Windows...", "..safety, security, and privacy", the list just keeps going and going.
 
@@ -196,9 +196,9 @@ Rather than switch to Linux right away, I just used my other computer to downloa
 Now that XP is finally getting settled in, completely unaware and ungrateful of all the things that I've done for it, it's time to get Linux back and integrated.
 
 ### Hour 12
-A simple boot into Backtrack, replace the MBR from my GRUB backup, reboot, and we're back into Linux. Make sure all the raids are intact, and edit the GRUB menu.lst to chain-load Windows on the forth drive. Reboot again to confirm that everything works, and it does, unbelievable.
+A simple boot into Backtrack, replace the MBR from my GRUB backup, reboot, and we're back into Linux. Make sure all the raids are intact, and edit the GRUB menu.lst to chain-load Windows on the fourth drive. Reboot again to confirm that everything works, and it does, unbelievable.
 
-Now, something I noticed in XP: it detected the old broken install of its predecessor on forth partition of the first hard drive and decided that it would be a good idea to call that one "C:" and the working copy "L:". It choose "L" because it noticed that there were a lot of other partitions that one day would surely be visible to XP (since they're empty now) and reserved letters for them, how nice.
+Now, something I noticed in XP: it detected the old broken install of its predecessor on fourth partition of the first hard drive and decided that it would be a good idea to call that one "C:" and the working copy "L:". It choose "L" because it noticed that there were a lot of other partitions that one day would surely be visible to XP (since they're empty now) and reserved letters for them, how nice.
 
 Unfortunately, because Windows had commandeered and adopted itself a "C:" drive, I couldn't tell it to let it go and call the working version of Windows "C:". So now, because I'm not going through the install process again, I get the added luxury of changing the install paths of all my programs. Either way, it works, so I'm not touching it. It can figure out the hard drive is corrupt on its own.
 
